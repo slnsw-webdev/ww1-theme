@@ -1,0 +1,189 @@
+<?php
+/**
+ * @file
+ * Returns the HTML for a single Drupal page.
+ *
+ * Complete documentation for this file is available online.
+ * @see https://drupal.org/node/1728148
+ */
+?>
+
+<div id="page">
+
+  <header class="header" id="header" role="banner">
+
+
+	<div class="header__site-name-container" id="site-name-container">
+		<a href="/">
+	  	<h1 class="header__site-name" id="site-name">
+	     	<a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" class="header__site-link" rel="home"><?php print $site_name; ?></a>
+	  	</h1>
+	  	</a>
+	</div>    
+    
+    
+    <div class="header__menu-container" id="menu-container">
+    
+      	<div class="header__menu-render-container" id="menu-render-container">
+        		
+					<div class="header__main-menu-container" id="main-menu-container">
+						
+							<?php print theme('links', array('links' => menu_navigation_links('main-menu'), 'attributes' => array('class'=> array('links')) )); ?>
+						
+					</div>
+						        				
+        			<div class="header__user-menu-container" id="user-menu-container">
+        			
+        						<?php print theme('links', array('links' => menu_navigation_links('user-menu'), 'attributes' => array('class'=> array('links')) )); ?>
+    					
+					</div>
+						
+			</div>         		
+    	 
+    </div>
+    
+    <div class="header__logo-container" id="logo-container">
+  			<a href="http://www.sl.nsw.gov.au" title="<?php print t('Home'); ?>" rel="home" class="header__logo" id="logo">
+  			<img src="/sites/all/files/logo_02.png" alt="<?php print t('Home'); ?>" class="header__logo-image" />  			
+  			</a>
+    </div>
+    
+
+    <?php if ($secondary_menu): ?>
+      <nav class="header__secondary-menu" id="secondary-menu" role="navigation">
+        <?php print theme('links__system_secondary_menu', array(
+          'links' => $secondary_menu,
+          'attributes' => array(
+            'class' => array('links', 'inline', 'clearfix'),
+          ),
+          'heading' => array(
+            'text' => $secondary_menu_heading,
+            'level' => 'h2',
+            'class' => array('element-invisible'),
+          ),
+        )); ?>
+      </nav>
+    <?php endif; ?>
+
+    <?php print render($page['header']); ?>
+
+  </header>
+  
+  <div class="socialmedia-container">
+  		<div class="bl"></div>
+  		<div class="socialmedia-inner">
+  			<div class="socialmedia-text">Follow us</div>
+  			<?php print render($page['socialmedia']); ?>
+  		</div>
+  </div>
+
+  <div id="main">
+		
+    <div id="content" class="column" role="main">
+      <?php print render($page['highlighted']); ?>
+      <?php print $breadcrumb; ?>
+      <a id="main-content"></a>
+      <?php print render($title_prefix); ?>
+      <?php if ($title): ?>
+        <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
+      <?php endif; ?>
+      <?php print render($title_suffix); ?>
+      
+      <div id="content-container">
+	      <?php print $messages; ?>
+	      <?php print render($tabs); ?>
+	      <?php print render($page['help']); ?>
+	      <?php if ($action_links): ?>
+	        <ul class="action-links"><?php print render($action_links); ?></ul>
+	      <?php endif; ?>
+	      <?php print render($page['content']); ?>
+	      <?php print $feed_icons; ?>
+		</div>      
+      
+    </div>
+
+    <div id="navigation">
+
+      <?php print render($page['navigation']); ?>
+
+    </div>
+
+    <?php
+      // Render the sidebars to see if there's anything in them.
+      $sidebar_first  = render($page['sidebar_first']);
+      $sidebar_second = render($page['sidebar_second']);
+    ?>
+
+    <?php if ($sidebar_first || $sidebar_second): ?>
+      <aside class="sidebars">
+        <?php print $sidebar_first; ?>
+        <?php print $sidebar_second; ?>
+      </aside>
+    <?php endif; ?>
+
+  </div>
+
+	<div id="footer-container" class="footer-container">
+		<div id="footer-top" class="footer-top">
+			<div id="footer-top-left" class="footer-top-left">
+				<div id="footer-staff-pick" class="footer-staff-pick">				
+					<?php
+					  $view = views_get_view('random_staff_pick');
+					  $view->set_display('content_pane');
+					  print $view->preview('content_pane');
+					?>		
+				</div>
+			</div>
+			<div id="footer-top-middle" class="footer-top-middle">
+				<div id="footer-action" class="footer-action">
+						<input type="button" id="get-involved-btn" value="Get involved" class="footer-action-btn" />
+						<input type="button" id="ask-lib-btn" value="Ask a librarian" class="footer-action-btn" />
+				</div>
+			</div>
+			<div id="footer-top-right" class="footer-top-right">
+				<div id="footer-sl-details" class="footer-sl-details">
+					<div id="footer-sl-details-logo" class="footer-sl-details-logo">
+						<img id="footer-sl-logo" class="footer-sl-logo" src="/sites/all/files/footer-sl-logo.png" />
+					</div>
+					<div id="footer-sl-details-content" class="footer-sl-details-content">
+						<a href="mailto:world.war.I@sl.nsw.gov.au">world.war.I@sl.nsw.gov.au</a><br />
+						Macquarie Street,<br />
+						Sydney NSW 2000,<br />
+						Australia<br />
+						Ph: +61 2 9273 1414<br />
+						Fax: +61 2 9273 1255
+					</div>
+				</div>
+			</div>
+		</div>		
+		<div id="footer-bottom" class="footer-bottom">
+			<div id="footer-bottom-left" class="footer-bottom-left">
+				<div id="footer-sl-nav" class="footer-sl-nav">
+					<ul>
+						<li><a href="http://www.sl.nsw.gov.au/siteinfo/disclaimer.html">Disclaimer</a></li>
+						<li><a href="http://www.sl.nsw.gov.au/about/policies/privacy.html">Privacy</a></li>
+						<li><a href="http://www.sl.nsw.gov.au/siteinfo/copyright.html">Copyright</a></li>
+						<li><a href="http://www.sl.nsw.gov.au/about/rti/index.html">Right to information</a></li>
+						<li><a href="http://www.sl.nsw.gov.au/system/forms/website_feedback.html">Feedback<a/></li>					
+					</ul><br />
+					&copy; State Library Of New South Wales 2014	
+				</div>
+			</div>
+			<div id="footer-bottom-right" class="footer-bottom-right">
+				<div id="footer-gov" class="footer-gov">
+					A NSW Government site <img id="footer-gov-logo" class="footer-gov-logo" src="/sites/all/files/footer-nsw-gov.png" />				
+				</div>
+			</div>
+		</div>    	
+  	</div>
+
+</div>
+
+<!-- render mobile menu then hide -->
+<div id="mobile-menu-container">
+   <?php
+   print drupal_render(menu_tree_output(menu_tree_all_data('menu-mobile-menu'))); 
+	?>						
+</div>
+
+<?php print render($page['bottom']); ?>

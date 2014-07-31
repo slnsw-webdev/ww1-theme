@@ -1,0 +1,13 @@
+jQuery( document ).ready(function() {
+	
+ // jquery snippet to set parent background colour
+ // on fluid grid
+ jQuery(".transcript-0").closest("li").css('background-color', '#00CC00');
+ jQuery(".transcript-1").closest("li").css('background-color', '#FF6600');
+ jQuery(".transcript-2").closest("li").css('background-color', '#DDDDDD');
+ jQuery(".transcript-3").closest("li").css('background-color', '#A9A9A9');
+ 
+ // resetting the logo to the SL www site
+  
+ 
+});

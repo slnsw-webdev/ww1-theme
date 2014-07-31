@@ -1,0 +1,22 @@
+<div class="blueFilterContainerTop"></div>
+<div class="secondary-main-content">
+	<div id="story-header-title">Register</div>
+	<?php print $messages; ?>
+	<div class="user-login-fb-container">
+		<!-- Custom login form -->
+		<p>Login with your Facebook account or or enter details below.</p>
+		<!-- Print Fb connect button if fboauth module loaded -->
+		<?php if (module_exists('fboauth')) {
+   		print fboauth_action_display('connect');
+		}
+		?>
+	</div>
+
+	<?php
+	
+	print drupal_render_children($form)
+	
+	?>
+	
+	<a href="/user/login">Login</a>
+</div>

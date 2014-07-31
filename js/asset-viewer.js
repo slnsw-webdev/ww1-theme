@@ -1,0 +1,58 @@
+
+
+function toggleLiveResizing () {
+	jQuery.each( jQuery.layout.config.borderPanes, function (i, pane) {
+		var o = myLayout.options[ pane ];
+		o.livePaneResizing = !o.livePaneResizing;
+	});
+};
+	
+function toggleStateManagement ( skipAlert, mode ) {
+	if (!jQuery.layout.plugins.stateManagement) return;
+	
+	var options	= myLayout.options.stateManagement
+	,	enabled	= options.enabled // current setting
+	;
+	if (jQuery.type( mode ) === "boolean") {
+		if (enabled === mode) return; // already correct
+		enabled	= options.enabled = mode
+	} else {
+		enabled	= options.enabled = !enabled; // toggle option
+	}
+	
+	if (!enabled) { // if disabling state management...
+		myLayout.deleteCookie(); // ...clear cookie so will NOT be found on next refresh
+		if (!skipAlert)
+			alert( 'This layout will reload as the options specify \nwhen the page is refreshed.' );
+	} else if (!skipAlert) {
+		alert( 'This layout will save & restore its last state \nwhen the page is refreshed.' );
+	}
+	
+	// update text on button
+	var jQueryBtn = jQuery('#btnToggleState'), text = jQueryBtn.html();
+	if (enabled) {
+		jQueryBtn.html( text.replace(/Enable/i, "Disable") );
+	} else {
+		jQueryBtn.html( text.replace(/Disable/i, "Enable") );
+	}
+};
+	
+// set EVERY 'state' here so will undo ALL layout changes
+// used by the 'Reset State' button: myLayout.loadState( stateResetSettings )
+var stateResetSettings = {
+	north__size:		"auto"
+	,	north__initClosed:	false
+	,	north__initHidden:	false
+	,	south__size:		"auto"
+	,	south__initClosed:	false
+	,	south__initHidden:	false
+	,	west__size:			200
+	,	west__initClosed:	false
+	,	west__initHidden:	false
+	,	east__size:			300
+	,	east__initClosed:	false
+	,	east__initHidden:	false
+};
+	
+var myLayout;
+
