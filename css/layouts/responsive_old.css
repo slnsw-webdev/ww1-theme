@@ -202,21 +202,15 @@ html, body {
 	color: #a00031;
 }
 
+
 #mobile-menu-container {
-	display : none !important;
+	display : none;
 }
 
 .heading-one {
     color: #e50046;
-    font-family: Georgia, Times, "Times New Roman", serif;
+   font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 40px;
-}
-
-h1 {
-	color: #e50046;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 40px;
-	font-weight: regular;
 }
 
 .heading-two {
@@ -226,26 +220,10 @@ h1 {
     text-transform: uppercase;
 }
 
-h2 {
-	color: #1e1e1e;
-    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
-    font-size: 24px;
-    text-transform: uppercase;
-	font-weight: regular;
-}
-
 .heading-three {
 	color: #1e1e1e;
     font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
-    font-size: 18px;
-    text-transform: uppercase;
-	font-weight: bold;
-}
-
-h3 {
-	color: #1e1e1e;
-    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     text-transform: uppercase;
 	font-weight: bold;
 }
@@ -258,10 +236,10 @@ h3 {
 	font-weight: bold;
 }
 
-h4 {
+.heading-four {
 	color: #1e1e1e;
     font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
 	font-weight: bold;
 }
@@ -998,8 +976,6 @@ h4 {
 .view-diary-highlight-home img {
 	float: right;
 	padding: 0 0 0 20px;
-	max-width: 70% !important;
-	height: auto !important;
 }
 
 .view-diary-highlight-home .masonry-brick {
@@ -1061,8 +1037,6 @@ h4 {
 .view-story-highlight-home img {
 	float: right;
 	padding: 0 0 0 20px;
-	max-width: 70% !important;
-	height: auto !important;
 }
 
 .view-story-highlight-home .masonry-brick {
@@ -1148,7 +1122,9 @@ h4 {
 }
 
 .home-events-container .pane-home-event-list .views-row  {
-	padding: 20px;
+	margin-top: 20px;
+	border-right: 1px solid #858585;
+	padding: 0 20px;
 	float: left;
 	width: 20%;
 	height: 100%;
@@ -1261,6 +1237,7 @@ h4 {
 .pinkFilterContainerBtm {
 	border-bottom: 9px solid #e50046;
 	width: 100%;
+	height: 9px !important;
 	margin: 0;
 	padding: 0;
 }
@@ -3654,7 +3631,7 @@ body.overlay #footer-container * {
 	}	
 	
 	#main-menu-container li a {
-		font-size: 9px;
+		font-size: 10px;
 	}
 
 	#user-menu-container {
@@ -3687,19 +3664,9 @@ body.overlay #footer-container * {
   } 
 	
 	/* Position footer div's */
-	#footer-top, #footer-top-left, #footer-bottom {
+	#footer-top, #footer-top-left, #footer-bottom, #footer-bottom-left, #footer-bottom-right {
 		position: relative !important;
 		width: 100% !important;	
-		float: left !important;
-	}
-	
-	#footer-bottom-left {
-		position: relative !important;
-		float: left !important;
-	}
-	
-	#footer-bottom-right {
-		position: relative !important;
 		float: left !important;
 	}
 	
@@ -3867,6 +3834,7 @@ body.overlay #footer-container * {
 	.home-nav-btn {
 		display: none;	
 	}
+	
 }
 
 
