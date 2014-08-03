@@ -346,13 +346,12 @@ h4 {
 	position: absolute;	
 	background-color:#1e1e1e;
    opacity: 0.5;
-   filter: alpha(opacity=50);
    height: 14%;
    height: 50px;
    padding-top: 18px !important;
    width: 100%;
   	bottom: 0;
-	font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: Georgia, Times, "Times New Roman", serif;
    font-style: italic;
    font-size: 17px;
    color: #fff;
@@ -393,7 +392,7 @@ h4 {
 
 .secondary-page-image-overlay > div > img {
 	min-height: 50px !important;
-	max-height: 120px !important;
+	max-height: 40% !important;
 	position: relative !important;
 	top: 0;
 	right: 0;
@@ -875,7 +874,6 @@ h4 {
 	position: absolute;
 	background-color: #1e1e1e;
 	opacity: 0.70;
-	filter: alpha(opacity=70);
 	height: 75px;
 	bottom: 5px;
 	font-family: Georgia, Times, "Times New Roman", serif;
@@ -1005,7 +1003,7 @@ h4 {
 }
 
 .view-diary-highlight-home .masonry-brick {
-	max-width: 98% !important;
+	max-width: 100% !important;
 }
 
 .view-diary-highlight-home .views-field-title a {
@@ -1068,7 +1066,7 @@ h4 {
 }
 
 .view-story-highlight-home .masonry-brick {
-	max-width: 98% !important;
+	max-width: 100% !important;
 }
 
 .view-story-highlight-home {
@@ -2808,7 +2806,6 @@ body.overlay #footer-container * {
 	background-color: #1e1e1e;
 	width: 100%;
 	opacity: 0.70;
-	filter: alpha(opacity=70);
 	height: 29px;
 	bottom: 0px;
 	font-family: Georgia, Times, "Times New Roman", serif;
@@ -3041,7 +3038,6 @@ body.overlay #footer-container * {
 	background-color: #1e1e1e;
 	width: 100%;
 	opacity: 0.70;
-	filter: alpha(opacity=70);
 	height: 40px;
 	top: 0px;
 	font-family: Georgia, Times, "Times New Roman", serif;
@@ -3213,8 +3209,6 @@ body.overlay #footer-container * {
 	padding: 5px;
 	padding-bottom: 3px;
 	background-color: rgba(0, 0, 0,0.5);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
 }
 
 .socialmedia-container .socialmedia-text {
