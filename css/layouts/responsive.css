@@ -2981,7 +2981,7 @@ body.overlay #footer-container * {
 	font-size: 48px;
 }
 
-.view-diarists-list .item-list {
+.view-diarists-list .item-list ul {
 	padding-left: 75px;
 }
 
