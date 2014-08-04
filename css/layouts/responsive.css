@@ -2959,11 +2959,15 @@ body.overlay #footer-container * {
 
 .page-explore-diarists  .storyContent {
 	float: left;
+	margin: 0;
+	padding: 0;
 	width: 800px;
 }
 
 .page-explore-diarists  .sideBar {
 	float: right;
+	margin: 0;
+	padding: 0;
 	width: 277px;
 	margin-left: 23px;
 }
