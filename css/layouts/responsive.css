@@ -89,7 +89,7 @@ a:hover {
 
 #main {
 	padding: 0;
-	margin: 75px 0 0 0;
+	margin: 0;
   	width: 100%;
   	min-height: 100%;
 }
@@ -2951,6 +2951,30 @@ body.overlay #footer-container * {
 
 .view-diarists-list ul{
 	list-style-type: none;
+}
+
+.view-diarists-list .view-header a {
+	display: inline-block;
+	border-width: 1px 1px 1px 0;
+	border-style: solid;
+	border-color: #e7e7e7;
+	padding: 5px;
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	font-size: 13px;
+	color: #2c2c2c;
+	background-color: #e9e9e9;
+}
+
+.view-diarists-list .view-header a:first {
+	border-width:  1px 1px 1px 1px;
+} 
+
+.view-diarists-list .item-list h3 {
+	font-size: 48px;
+}
+
+.view-diarists-list .item-list a {
+	color: #2c2c2c;
 }
 
 .layout-outer {
