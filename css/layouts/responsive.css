@@ -2962,11 +2962,16 @@ body.overlay #footer-container * {
 	max-width: 1100px;
 }
 
+.page-explore-diarists .storyContent {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
 .page-explore-diarists  .storyContentRow {
 	float: left;
 	margin: 0 !important;
 	padding: 0 !important;
-	width: 800px;
+	max-width: 800px;
 }
 
 .page-explore-diarists  .sideBarRow {
@@ -3008,8 +3013,8 @@ body.overlay #footer-container * {
 
 .view-diarists-list .item-list {
 	margin-top: 20px;
-	border-top: 4px solid #e9e9e9;
-	padding-top: 20px;
+	border-bottom: 4px solid #e9e9e9;
+	padding-bottom: 20px;
 	position: relative;
 }
 
@@ -3036,6 +3041,14 @@ body.overlay #footer-container * {
 	text-decoration: underline;
 }
 
+.pane-sidebar-realted-diaries {
+	clear: left;
+}
+
+.pane-sidebar-themes .view-content {
+	padding-top: 10px;
+}
+
 .pane-sidebar-themes ul {
 	list-style-type: none;
 	margin: 0;
@@ -3043,20 +3056,23 @@ body.overlay #footer-container * {
 }
 
 .pane-sidebar-themes ul li {
-	float: left;
+	display: inline-block;
 	margin: 0 2px 4px 2px;
 	padding: 0;
 	text-align: center;
+	vertical-align: middle;
+	width: 85px;
+	height: 45px;
+	background-color: #ebebeb;
 }
 
 
 .pane-sidebar-themes ul li a {
-	display: block;
-	width: 89px;
-	height: 45px;
-	background-color: #ebebeb;
 	color: #686868;
-	
+	display: block;
+	padding-top: 10px;
+	width: 85px;
+	height: 35px;
 }
 
 .pane-tweets h3{
@@ -3065,13 +3081,17 @@ body.overlay #footer-container * {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-weight: regular;
 	font-size: 16px;
-	background-color: #e3e3e3;
 	height: 50px;
 	line-height: 50px;
 	text-indent: 50px;
-	background: url(/sites/all/themes/www1-theme/images/twitter-icon.png) left center repeat-none;
+	background:  #e3e3e3 url(/sites/all/themes/ww1/images/twitter-icon.png) 15px center no-repeat;
 	text-transform: none;
 }
+
+.pane-tweets  .views-table {
+	margin-top: 0 !important;
+}
+
 .layout-outer {
 	width: 1024px;
 	height: 768px;
@@ -3578,6 +3598,24 @@ body.overlay #footer-container * {
 		min-height: 240px;	
 	}
 	
+	.page-explore-diarists .storyContentRow {
+		float: none;
+		margin: 0 auto;
+	}
+	
+	.page-explore-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-explore-diarists .sideBarRow .pane-views {
+		float: left;
+		margin-right: 40px;
+		width: 277px;
+		clear: none;
+	}
+	
 }
 
 @media all and (min-width: 640px) and (max-width: 840px) { 
@@ -3635,6 +3673,23 @@ body.overlay #footer-container * {
 		font-style: italic;
 	}
 	
+	.page-explore-diarists .storyContentRow {
+		float: none;
+		margin: 0 auto;
+	}
+	
+	.page-explore-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-explore-diarists .sideBarRow .pane-views {
+		float: left;
+		margin-right: 40px;
+		width: 277px;
+		clear: none;
+	}
 }
 
 @media all and (max-width: 840px) { 
@@ -3768,6 +3823,24 @@ body.overlay #footer-container * {
 	.secondary-page-text-overlay {
 		font-size: 12px;
 		color: #fff;
+	}
+	
+	.page-explore-diarists .storyContentRow {
+		float: none;
+		margin: 0 auto;
+	}
+	
+	.page-explore-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-explore-diarists .sideBarRow .pane-views {
+		float: left;
+		margin-right: 40px;
+		width: 277px;
+		clear: none;
 	}
   
 } 
@@ -3916,7 +3989,23 @@ body.overlay #footer-container * {
 		display: none;	
 	}
 	
-  
+	.page-explore-diarists .storyContentRow {
+		float: none;
+		margin: 0 auto;
+	}
+	
+	.page-explore-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-explore-diarists .sideBarRow .pane-views {
+		float: left;
+		margin-right: 40px;
+		width: 277px;
+		clear: none;
+	}
 }
 
 
@@ -3980,6 +4069,23 @@ body.overlay #footer-container * {
 		display: none;	
 	}
 	
+	.page-explore-diarists .storyContentRow {
+		float: none;
+		margin: 0 auto;
+	}
+	
+	.page-explore-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-explore-diarists .sideBarRow .pane-views {
+		float: left;
+		margin-right: 40px;
+		width: 277px;
+		clear: none;
+	}
 	
 }
 
@@ -4009,6 +4115,24 @@ body.overlay #footer-container * {
 	
 	.home-nav-btn {
 		display: none;	
+	}
+	
+	.page-explore-diarists .storyContentRow {
+		float: none;
+		margin: 0 auto;
+	}
+	
+	.page-explore-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-explore-diarists .sideBarRow .pane-views {
+		float: left;
+		margin-right: 40px;
+		width: 277px;
+		clear: none;
 	}
 }
 
@@ -4059,6 +4183,24 @@ body.overlay #footer-container * {
 	.secondary-page-text-overlay {
 		font-size: 17px;
 		color: #fff;
+	}
+	
+	.page-explore-diarists .storyContentRow {
+		float: none;
+		margin: 0 auto;
+	}
+	
+	.page-explore-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-explore-diarists .sideBarRow .pane-views {
+		float: left;
+		margin-right: 40px;
+		width: 277px;
+		clear: none;
 	}
 	
 }
