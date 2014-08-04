@@ -1,6 +1,6 @@
 <div class="blueFilterContainerTop"></div>
 <div class="secondary-main-content">
-   <div style="margin-top: 75px;"></div>
+   <div style="margin-top: 25px;"></div>
 	<div id="story-header-title">Register</div>
 	
 
@@ -17,7 +17,7 @@
 
 <p><strong>Copyright and Ownership</strong>
 
-<p>When you upload content, you are giving the State Library of NSW permission to publish. Please read our Terms and Conditions before sharing your content. 
+<p>When you upload content, you are giving the State Library of NSW permission to publish. Please read our <a href="/about/terms-and-conditions">Terms and Conditions</a> before sharing your content. 
 	</div>	
 	
 	<?php print $messages; ?>

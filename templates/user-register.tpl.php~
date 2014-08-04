@@ -1,6 +1,6 @@
 <div class="blueFilterContainerTop"></div>
 <div class="secondary-main-content">
-   <div style="margin-top: 50px;"></div>
+   <div style="margin-top: 25px;"></div>
 	<div id="story-header-title">Register</div>
 	
 
@@ -38,4 +38,5 @@
 	?>
 	
 	<a href="/user/login">Login</a>
+	<div style="margin-bottom: 50px;"></div>
 </div>
