@@ -3007,6 +3007,9 @@ body.overlay #footer-container * {
 } 
 
 .view-diarists-list .item-list {
+	margin-top: 10px;
+	border-top: 4px solid #e9e9e9;
+	padding-top: 10px;
 	position: relative;
 }
 
@@ -3020,7 +3023,7 @@ body.overlay #footer-container * {
 }
 
 .view-diarists-list .item-list ul {
-	padding-left: 75px;
+	padding: 0 0 0 75px;
 }
 
 .view-diarists-list .item-list a {
