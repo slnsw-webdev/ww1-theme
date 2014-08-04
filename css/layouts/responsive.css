@@ -2962,14 +2962,14 @@ body.overlay #footer-container * {
 	max-width: 1100px;
 }
 
-.page-explore-diarists  .storyContent {
+.page-explore-diarists  .storyContentRow {
 	float: left;
 	margin: 0 !important;
 	padding: 0 !important;
 	width: 800px;
 }
 
-.page-explore-diarists  .sideBar {
+.page-explore-diarists  .sideBarRow {
 	float: right;
 	margin: 0 !important;
 	padding: 0 !important;
