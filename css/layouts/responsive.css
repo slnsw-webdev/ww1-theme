@@ -2986,7 +2986,7 @@ body.overlay #footer-container * {
 	border-width: 1px 1px 1px 0;
 	border-style: solid;
 	border-color: #b7b7b7;
-	padding: 10px 15px 10px 15px;
+	padding: 5px 10px 5px 10px;
 	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
 	font-size: 13px;
 	color: #2c2c2c;
@@ -3008,6 +3008,7 @@ body.overlay #footer-container * {
 	margin: 0;
 	font-size: 48px;
 	line-height: 1;
+	font-weight: normal;
 }
 
 .view-diarists-list .item-list ul {
@@ -3017,6 +3018,33 @@ body.overlay #footer-container * {
 .view-diarists-list .item-list a {
 	color: #2c2c2c;
 	text-decoration: underline;
+}
+
+.pane-sidebar-themes ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.pane-sidebar-themes ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.pane-sidebar-themes ul li a {
+	display: block;
+	margin-left: 5px;
+	width: 89px;
+	height: 45px;
+	line-height: 45px;
+	background-color: #ebebeb;
+	color: #686868;
+	
+}
+
+.pane-sidebar-themes ul li a:first-child {
+	margin-left: 0;
 }
 
 .layout-outer {
