@@ -3617,8 +3617,8 @@ body.overlay #footer-container * {
 	}
 	
 	.page-explore-diarists .sideBarRow .pane-views {
-		float: left;
-		margin-right: 40px;
+		float: none;
+		margin: 0 auto;
 		width: 277px;
 		clear: none;
 	}
@@ -3693,8 +3693,8 @@ body.overlay #footer-container * {
 	}
 	
 	.page-explore-diarists .sideBarRow .pane-views {
-		float: left;
-		margin-right: 40px;
+		float: none;
+		margin: 0 auto;
 		width: 277px;
 		clear: none;
 	}
@@ -3846,8 +3846,8 @@ body.overlay #footer-container * {
 	}
 	
 	.page-explore-diarists .sideBarRow .pane-views {
-		float: left;
-		margin-right: 40px;
+		float: none;
+		margin: 0 auto;
 		width: 277px;
 		clear: none;
 	}
