@@ -2949,6 +2949,10 @@ body.overlay #footer-container * {
 	height: 768px !important;
 }
 
+.view-diarists-list ul{
+	list-style-type: none;
+}
+
 .layout-outer {
 	width: 1024px;
 	height: 768px;
