@@ -2949,6 +2949,11 @@ body.overlay #footer-container * {
 	height: 768px !important;
 }
 
+.page-explore-diarists .pane-diarists-list {
+	border-top: 8px solid #00cc99;
+	padding-top: 30px;
+}
+
 .page-explore-diarists  .secondary-main-content {
 	float: none;
 	width: 80%;

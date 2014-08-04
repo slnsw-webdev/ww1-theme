@@ -10,7 +10,7 @@ jQuery( document ).ready(function() {
 	
    jQuery('body.page-explore-diarists a').on('click', function(e) {
 		 jQuery('html, body').animate({
-			scrollTop: jQuery('h3:contains(' + jQuery(this).text() + ')').offset().top
+			scrollTop: jQuery('h3:contains(' + jQuery(this).text() + ')').offset().top - 75
 		}, 2000);
 		e.preventDefault();
    });
