@@ -3007,10 +3007,14 @@ body.overlay #footer-container * {
 } 
 
 .view-diarists-list .item-list {
-	margin-top: 10px;
+	margin-top: 20px;
 	border-top: 4px solid #e9e9e9;
-	padding-top: 10px;
+	padding-top: 20px;
 	position: relative;
+}
+
+.view-diarists-list .item-list:first-child {
+	border-top: 0;
 }
 
 .view-diarists-list .item-list h3 {
@@ -3023,6 +3027,7 @@ body.overlay #footer-container * {
 }
 
 .view-diarists-list .item-list ul {
+	margin: 0;
 	padding: 0 0 0 75px;
 }
 
@@ -3039,14 +3044,11 @@ body.overlay #footer-container * {
 
 .pane-sidebar-themes ul li {
 	float: left;
-	margin: 0 5px 5px 0px;
+	margin: 0 2px 4px 2px;
 	padding: 0;
 	text-align: center;
 }
 
-.pane-sidebar-themes ul li:first-child {
-	margin-left: 0;
-}
 
 .pane-sidebar-themes ul li a {
 	display: block;
@@ -3058,6 +3060,7 @@ body.overlay #footer-container * {
 }
 
 .pane-tweets h3{
+	margin-bottom: 0 !important;
 	color: #717171;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-weight: regular;
@@ -3067,6 +3070,7 @@ body.overlay #footer-container * {
 	line-height: 50px;
 	text-indent: 50px;
 	background: url(/sites/all/themes/www1-theme/images/twitter-icon.png) left center repeat-none;
+	text-transform: none;
 }
 .layout-outer {
 	width: 1024px;
