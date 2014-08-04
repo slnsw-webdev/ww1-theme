@@ -3066,6 +3066,7 @@ body.overlay #footer-container * {
 	height: 50px;
 	line-height: 50px;
 	text-indent: 50px;
+	background-image: url(/sites/all/themes/www1-theme/images/twitter-icon.png);
 }
 .layout-outer {
 	width: 1024px;
