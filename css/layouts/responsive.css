@@ -3079,17 +3079,23 @@ body.overlay #footer-container * {
 	margin-bottom: 0 !important;
 	color: #717171;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	font-weight: regular;
+	font-weight: normal;
 	font-size: 16px;
 	height: 50px;
 	line-height: 50px;
 	text-indent: 50px;
 	background:  #e3e3e3 url(/sites/all/themes/ww1/images/twitter-icon.png) 15px center no-repeat;
 	text-transform: none;
+	 box-shadow: 2px -2px 2px rgba(0, 0, 0, 0.23);
 }
 
 .pane-tweets  .views-table {
 	margin-top: 0 !important;
+	 background-color: #ffffff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.23);
+}
+.pane-tweets  .views-table tr {
+	background-color: #fff !important;
 }
 
 .layout-outer {
@@ -3601,6 +3607,7 @@ body.overlay #footer-container * {
 	.page-explore-diarists .storyContentRow {
 		float: none;
 		margin: 0 auto;
+		max-width: 100%;
 	}
 	
 	.page-explore-diarists .sideBarRow {
@@ -3676,6 +3683,7 @@ body.overlay #footer-container * {
 	.page-explore-diarists .storyContentRow {
 		float: none;
 		margin: 0 auto;
+		max-width: 100%;
 	}
 	
 	.page-explore-diarists .sideBarRow {
@@ -3828,6 +3836,7 @@ body.overlay #footer-container * {
 	.page-explore-diarists .storyContentRow {
 		float: none;
 		margin: 0 auto;
+		max-width: 100%;
 	}
 	
 	.page-explore-diarists .sideBarRow {
@@ -3992,6 +4001,7 @@ body.overlay #footer-container * {
 	.page-explore-diarists .storyContentRow {
 		float: none;
 		margin: 0 auto;
+		max-width: 100%;
 	}
 	
 	.page-explore-diarists .sideBarRow {
@@ -4072,6 +4082,7 @@ body.overlay #footer-container * {
 	.page-explore-diarists .storyContentRow {
 		float: none;
 		margin: 0 auto;
+		max-width: 100%;
 	}
 	
 	.page-explore-diarists .sideBarRow {
@@ -4120,6 +4131,7 @@ body.overlay #footer-container * {
 	.page-explore-diarists .storyContentRow {
 		float: none;
 		margin: 0 auto;
+		max-width: 100%;
 	}
 	
 	.page-explore-diarists .sideBarRow {
@@ -4187,6 +4199,7 @@ body.overlay #footer-container * {
 	
 	.page-explore-diarists .storyContentRow {
 		float: none;
+		max-width: 100%;
 		margin: 0 auto;
 	}
 	
@@ -4209,6 +4222,25 @@ body.overlay #footer-container * {
 
   #main-menu-container li a {
 		font-size: 14px;	
+	}
+	
+	.page-explore-diarists .storyContentRow {
+		float: none;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	
+	.page-explore-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-explore-diarists .sideBarRow .pane-views {
+		float: left;
+		margin-right: 40px;
+		width: 277px;
+		clear: none;
 	}
 }
 
