@@ -3235,6 +3235,12 @@ body.overlay #footer-container * {
 	margin: 0 !important;
 }
 
+.register-content {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	color: #1e1e1e;
+}
+
 @media all and (max-width: 380px) { 
 	#sl-main-menu-container {
 		display: none;	
