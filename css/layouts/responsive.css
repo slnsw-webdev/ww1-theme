@@ -3028,23 +3028,22 @@ body.overlay #footer-container * {
 
 .pane-sidebar-themes ul li {
 	float: left;
+	margin-left: 5px;
 	margin: 0;
 	padding: 0;
 }
 
+.pane-sidebar-themes ul li:first-child {
+	margin-left: 0;
+}
+
 .pane-sidebar-themes ul li a {
 	display: block;
-	margin-left: 5px;
 	width: 89px;
 	height: 45px;
-	line-height: 45px;
 	background-color: #ebebeb;
 	color: #686868;
 	
-}
-
-.pane-sidebar-themes ul li a:first-child {
-	margin-left: 0;
 }
 
 .layout-outer {
