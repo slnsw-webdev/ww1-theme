@@ -3050,6 +3050,20 @@ body.overlay #footer-container * {
 	line-height: 1;
 }
 
+.node-type-diarists .field-label {
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.node-type-diarists .field-name-field-bio .field-label {
+	margin-top: 1em;
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
 .view-diarists-list ul{
 	list-style-type: none;
 }
