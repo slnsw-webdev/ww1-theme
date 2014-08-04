@@ -2964,15 +2964,15 @@ body.overlay #footer-container * {
 
 .page-explore-diarists  .storyContent {
 	float: left;
-	margin: 0;
-	padding: 0;
+	margin: 0 !important;
+	padding: 0 !important;
 	width: 800px;
 }
 
 .page-explore-diarists  .sideBar {
 	float: right;
-	margin: 0;
-	padding: 0;
+	margin: 0 !important;
+	padding: 0 !important;
 	width: 277px;
 	margin-left: 23px;
 }
@@ -3031,6 +3031,7 @@ body.overlay #footer-container * {
 	margin-left: 5px;
 	margin: 0;
 	padding: 0;
+	text-align: center;
 }
 
 .pane-sidebar-themes ul li:first-child {
