@@ -2967,7 +2967,7 @@ body.overlay #footer-container * {
 }
 
 .page-explore-diarists .pane-diarists-list{
-	border-top: 8px solid #00cc99;
+	border-top: 6px solid #00cc99;
 	padding-top: 30px;
 }
 
@@ -3001,7 +3001,7 @@ body.overlay #footer-container * {
 
 .page-explore-diarists  .sideBar  h2 {
 	border-color: #00cc99;
-	border-width: 8px 0 4px 0;
+	border-width: 6px 0 3px 0;
 	border-style: solid;
 	margin: 10px 0 0 0;
 	padding: 14px 0;
@@ -3009,7 +3009,7 @@ body.overlay #footer-container * {
 }
 
 .node-type-diarists .pane-diarists-list{
-	border-top: 8px solid #00cc99;
+	border-top: 6px solid #00cc99;
 	padding-top: 30px;
 }
 
@@ -3043,7 +3043,7 @@ body.overlay #footer-container * {
 
 .node-type-diarists  .sideBar  h2 {
 	border-color: #00cc99;
-	border-width: 8px 0 4px 0;
+	border-width: 6px 0 3px 0;
 	border-style: solid;
 	margin: 10px 0 0 0;
 	padding: 14px 0;
@@ -3103,6 +3103,15 @@ body.overlay #footer-container * {
 	font-size: 48px;
 	line-height: 1;
 	font-weight: normal;
+}
+
+.view-diarists-list .item-list a.back-to-top {
+	position: absolute;
+	bottom: 1em;
+	right: 0;
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	text-transform: uppercase;
+	
 }
 
 .view-diarists-list .item-list ul {

@@ -8,13 +8,17 @@ jQuery(window).bind('resize', function() {
 
 jQuery( document ).ready(function() {
 	
-   jQuery('body.page-explore-diarists a').on('click', function(e) {
+   jQuery('body.page-explore-diarists .view-header a').on('click', function(e) {
 		 jQuery('html, body').animate({
 			scrollTop: jQuery('h3:contains(' + jQuery(this).text() + ')').offset().top - 75
 		}, 2000);
 		e.preventDefault();
    });
   
+  
+   jQuery('body.page-explore-diarists .view-diarists-list .item-list').append('<a href="#" class="back-to-top">Back to Top</a>');
+ 
+ 
    jQuery('#sidr-close-btn').on('click', function() {
           jQuery.sidr('close', 'sidr-0');
    });
