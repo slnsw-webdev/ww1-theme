@@ -7,6 +7,13 @@ jQuery(window).bind('resize', function() {
 });
 
 jQuery( document ).ready(function() {
+	
+   jQuery('body.page-explore-diarists a').on('click', function(e) {
+		 $('html, body').animate({
+			scrollTop: jQuery('h3:contains'(jQuery(this).text())).offset().top
+		}, 2000);
+		e.preventDefault();
+   });
   
    jQuery('#sidr-close-btn').on('click', function() {
           jQuery.sidr('close', 'sidr-0');
