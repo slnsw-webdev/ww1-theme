@@ -334,7 +334,7 @@ jQuery(window).load(function() {
   
   // footer button links
   jQuery('#get-involved-btn').click(function() {
-	  	 window.open('http://ccc.sl.nsw.gov.au/', '_blank');
+	  	 window.open('/user/register', '_blank');
 	});
 	jQuery('#ask-lib-btn').click(function() {
 	    window.open('http://www.sl.nsw.gov.au/services/ask/index.html?HomeLink=Ask_A_Librarian', '_blank');

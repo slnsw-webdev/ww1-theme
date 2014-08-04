@@ -7,6 +7,13 @@ jQuery(window).bind('resize', function() {
 });
 
 jQuery( document ).ready(function() {
+	
+   jQuery('body.page-explore-diarists a').on('click', function(e) {
+		 jQuery('html, body').animate({
+			scrollTop: jQuery('h3:contains(' + jQuery(this).text() + ')').offset().top - 75
+		}, 2000);
+		e.preventDefault();
+   });
   
    jQuery('#sidr-close-btn').on('click', function() {
           jQuery.sidr('close', 'sidr-0');
@@ -318,7 +325,7 @@ jQuery(window).load(function() {
   jQuery(window).trigger('resize');
   
   // bevel social media corner
-  jQuery(".socialmedia-container").corner("bevel bl 37px");
+  // jQuery(".socialmedia-container").corner("bevel bl 37px");
   
   // set cookie for exhibition hall pc's
   if(window.location.href.indexOf("exhibitionhall") > -1) {
