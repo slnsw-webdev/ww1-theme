@@ -3078,7 +3078,7 @@ body.overlay #footer-container * {
 	margin-top: 20px;
 }
 
-.node-type-diarists  .pane-diarists-stories h2, .node-type-diarists  .pane-diarists-images h2{
+.node-type-diarists  .pane-diarists-stories h2, .node-type-diarists  .pane-diarist-images h2{
 	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
 	font-size: 24px;
 	font-weight: normal;
