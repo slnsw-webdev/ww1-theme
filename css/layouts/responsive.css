@@ -3070,6 +3070,14 @@ body.overlay #footer-container * {
 	text-transform: uppercase;
 }
 
+.node-type-diarists  .pane-diarist-images .views-row {
+	margin-top: 20px;
+}
+
+.node-type-diarists  .pane-diarists-stories .views-row {
+	margin-top: 20px;
+}
+
 .node-type-diarists  .pane-diarists-stories h2 {
 	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
 	font-size: 24px;
