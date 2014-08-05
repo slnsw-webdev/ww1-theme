@@ -20,6 +20,14 @@ html, body {
 	margin: 0px; 
 }
 
+a {
+	color: #0059be ;
+}
+
+a:hover {
+	color:  #7e7e7e;
+}
+
 #skip-link {
 	display: none;
 }
@@ -30,6 +38,10 @@ html, body {
 
 #page {
 	width: 100%;
+}
+
+#overlay {
+	margin-top: 100px;
 }
 
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
@@ -216,7 +228,7 @@ h1 {
 	color: #e50046;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 40px;
-	font-weight: regular;
+	font-weight: regular !important;
 }
 
 .heading-two {
@@ -231,7 +243,7 @@ h2 {
     font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
     font-size: 24px;
     text-transform: uppercase;
-	font-weight: regular;
+	font-weight: regular !important;
 }
 
 .heading-three {
@@ -276,6 +288,23 @@ h4 {
 .headerImage {
 	width: 100%;
 	overflow-x: hidden;
+}
+
+.view-in-catalogue {
+	display: inline-block;
+	padding: 0 1em;
+	color: #1e1e1e;
+	border: 1px solid #acacac;
+	line-height: 2;
+	font-size: 12px;
+}
+
+.view-in-catalogue .arrow {
+	display: inline-block;
+	margin-left: 1em;
+	border-left: 1px solid #acacac;
+	padding-left: 1em;
+	line-height: 2;
 }
 
 .home-page-image img {
@@ -2941,6 +2970,221 @@ body.overlay #footer-container * {
 	height: 768px !important;
 }
 
+.page-explore-diarists .pane-diarists-list{
+	border-top: 6px solid #00cc99;
+	padding-top: 30px;
+}
+
+.page-explore-diarists  .secondary-main-content {
+	float: none;
+	width: 80%;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	max-width: 1100px;
+}
+
+.page-explore-diarists .storyContent {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.page-explore-diarists  .storyContentRow {
+	float: left;
+	margin: 0 !important;
+	padding: 0 !important;
+	max-width: 800px;
+}
+
+.page-explore-diarists  .sideBarRow {
+	float: right;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 277px;
+	margin-left: 23px;
+}
+
+.page-explore-diarists  .sideBar  h2 {
+	border-color: #00cc99;
+	border-width: 6px 0 3px 0;
+	border-style: solid;
+	margin: 10px 0 0 0;
+	padding: 14px 0;
+	line-height: 1;
+	font-size: 18px;
+}
+
+.node-type-diarists .pane-diarists-list{
+	border-top: 6px solid #00cc99;
+	padding-top: 30px;
+}
+
+.node-type-diarists  .secondary-main-content {
+	float: none;
+	width: 80%;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	max-width: 1100px;
+}
+
+.node-type-diarists .storyContent {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.node-type-diarists  .storyContentRow {
+	float: left;
+	margin: 0 !important;
+	padding: 0 !important;
+	max-width: 800px;
+}
+
+.node-type-diarists  .sideBarRow {
+	float: right;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 277px;
+	margin-left: 23px;
+}
+
+.node-type-diarists  .sideBar  h2 {
+	border-color: #00cc99;
+	border-width: 6px 0 3px 0;
+	border-style: solid;
+	margin: 10px 0 0 0;
+	padding: 14px 0;
+	line-height: 1;
+	font-size: 18px;
+}
+
+.node-type-diarists .field-label {
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.node-type-diarists .field-name-field-bio .field-label {
+	margin-top: 1em;
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.view-diarists-list ul{
+	list-style-type: none;
+}
+
+.view-diarists-list .view-header a {
+	display: inline-block;
+	border-width: 1px 1px 1px 0;
+	border-style: solid;
+	border-color: #b7b7b7;
+	padding: 5px 10px 5px 10px;
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	font-size: 13px;
+	color: #2c2c2c;
+	background-color: #e9e9e9;
+	line-height: 1;
+}
+
+.view-diarists-list .view-header a:first-child {
+	border-width:  1px 1px 1px 1px;
+} 
+
+.view-diarists-list .item-list {
+	margin-top: 20px;
+	border-bottom: 4px solid #e9e9e9;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.view-diarists-list .item-list:first-child {
+	border-top: 0;
+}
+
+.view-diarists-list .item-list h3 {
+	position: absolute;
+	top: 0;
+	margin: 0;
+	font-size: 48px;
+	line-height: 1;
+	font-weight: normal;
+}
+
+.view-diarists-list .item-list a.back-to-top {
+	position: absolute;
+	bottom: 1em;
+	right: 0;
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	text-transform: uppercase;
+	
+}
+
+.view-diarists-list .item-list ul {
+	margin: 0;
+	padding: 0 0 0 75px;
+}
+
+.view-diarists-list .item-list a {
+	color: #2c2c2c;
+	text-decoration: underline;
+}
+
+.pane-sidebar-realted-diaries {
+	clear: left;
+}
+
+.pane-sidebar-themes .view-content {
+	padding-top: 10px;
+}
+
+.pane-sidebar-themes ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.pane-sidebar-themes ul li {
+	float: left;
+	margin: 0 2px 4px 2px;
+	padding: 0;
+	text-align: center;
+	width: 85px;
+	height: 45px;
+	background-color: #ebebeb;
+}
+
+.pane-sidebar-themes ul li a {
+	display: inline-block;
+	padding-top: 5px;
+	width: 85px;
+	height: 40px;
+	color: #686868;
+}
+
+.pane-tweets h3{
+	margin-bottom: 0 !important;
+	color: #717171;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	height: 50px;
+	line-height: 50px;
+	text-indent: 50px;
+	background:  #e3e3e3 url(/sites/all/themes/ww1/images/twitter-icon.png) 15px center no-repeat;
+	text-transform: none;
+	 box-shadow: 2px -2px 2px rgba(0, 0, 0, 0.23);
+}
+
+.pane-tweets  .views-table {
+	margin-top: 0 !important;
+	 background-color: #ffffff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.23);
+}
+.pane-tweets  .views-table tr {
+	background-color: #fff !important;
+}
+
 .layout-outer {
 	width: 1024px;
 	height: 768px;
@@ -3188,6 +3432,10 @@ body.overlay #footer-container * {
 	background-position: 0 -32px;
 }
 
+.overlay .socialmedia-container {
+	display: none;
+}
+
 .socialmedia-container {
 	position: absolute;
 	width: 262px;
@@ -3233,6 +3481,12 @@ body.overlay #footer-container * {
 
 .socialmedia-container .block {
 	margin: 0 !important;
+}
+
+.register-content {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	color: #1e1e1e;
 }
 
 @media all and (max-width: 380px) { 
@@ -3441,6 +3695,43 @@ body.overlay #footer-container * {
 		min-height: 240px;	
 	}
 	
+	.page-explore-diarists .storyContentRow {
+		float: none;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	.page-explore-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-explore-diarists .sideBarRow .pane-views {
+		float: none;
+		margin: 0 auto;
+		width: 277px;
+		clear: none;
+	}
+	
+	.node-type-diarists .storyContentRow {
+		float: none;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	.node-type-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.node-type-diarists .sideBarRow .pane-views {
+		float: none;
+		margin: 0 auto;
+		width: 277px;
+		clear: none;
+	}
 }
 
 @media all and (min-width: 640px) and (max-width: 840px) { 
@@ -3498,6 +3789,43 @@ body.overlay #footer-container * {
 		font-style: italic;
 	}
 	
+	.page-explore-diarists .storyContentRow {
+		float: none;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	.page-explore-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-explore-diarists .sideBarRow .pane-views {
+		float: none;
+		margin: 0 auto;
+		width: 277px;
+		clear: none;
+	}
+	
+	.node-type-diarists .storyContentRow {
+		float: none;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	.node-type-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.node-type-diarists .sideBarRow .pane-views {
+		float: none;
+		margin: 0 auto;
+		width: 277px;
+		clear: none;
+	}
 }
 
 @media all and (max-width: 840px) { 
@@ -3631,6 +3959,44 @@ body.overlay #footer-container * {
 	.secondary-page-text-overlay {
 		font-size: 12px;
 		color: #fff;
+	}
+	
+	.page-explore-diarists .storyContentRow {
+		float: none;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	.page-explore-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-explore-diarists .sideBarRow .pane-views {
+		float: none;
+		margin: 0 auto;
+		width: 277px;
+		clear: none;
+	}
+	
+	.node-type-diarists .storyContentRow {
+		float: none;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	.node-type-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.node-type-diarists .sideBarRow .pane-views {
+		float: none;
+		margin: 0 auto;
+		width: 277px;
+		clear: none;
 	}
   
 } 
@@ -3779,7 +4145,43 @@ body.overlay #footer-container * {
 		display: none;	
 	}
 	
-  
+	.page-explore-diarists .storyContentRow {
+		float: none;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	.page-explore-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto !important;
+		width: 634px;
+	}
+	
+	.page-explore-diarists .sideBarRow .pane-views {
+		float: left;
+		margin-right: 40px;
+		width: 277px;
+		clear: none;
+	}
+	
+	.node-type-diarists .storyContentRow {
+		float: none;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	.node-type-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto !important;
+		width: 634px;
+	}
+	
+	.node-type-diarists .sideBarRow .pane-views {
+		float: left;
+		margin-right: 40px;
+		width: 277px;
+		clear: none;
+	}
 }
 
 
@@ -3843,6 +4245,43 @@ body.overlay #footer-container * {
 		display: none;	
 	}
 	
+	.page-explore-diarists .storyContentRow {
+		float: none;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	.page-explore-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto !important;
+		width: 634px;
+	}
+	
+	.page-explore-diarists .sideBarRow .pane-views {
+		float: left;
+		margin-right: 40px;
+		width: 277px;
+		clear: none;
+	}
+	
+	.node-type-diarists .storyContentRow {
+		float: none;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	.node-type-diarists .sideBarRow {
+			float: none;
+		margin: 0 auto !important;
+		width: 634px;
+	}
+	
+	.node-type-diarists .sideBarRow .pane-views {
+		float: left;
+		margin-right: 40px;
+		width: 277px;
+		clear: none;
+	}
 	
 }
 
@@ -3872,6 +4311,44 @@ body.overlay #footer-container * {
 	
 	.home-nav-btn {
 		display: none;	
+	}
+	
+	.page-explore-diarists .storyContentRow {
+		float: none;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	.page-explore-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto !important;
+		width: 634px;
+	}
+	
+	.page-explore-diarists .sideBarRow .pane-views {
+		float: left;
+		margin-right: 40px;
+		width: 277px;
+		clear: none;
+	}
+	
+	.node-type-diarists .storyContentRow {
+		float: none;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	.node-type-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto !important;
+		width: 634px;
+	}
+	
+	.node-type-diarists .sideBarRow .pane-views {
+		float: left;
+		margin-right: 40px;
+		width: 277px;
+		clear: none;
 	}
 }
 
@@ -3924,12 +4401,88 @@ body.overlay #footer-container * {
 		color: #fff;
 	}
 	
+	.page-explore-diarists .storyContentRow {
+		float: none;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	
+	.page-explore-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto !important;
+		width: 955px;
+	}
+	
+	.page-explore-diarists .sideBarRow .pane-views {
+		float: left;
+		margin-right: 40px;
+		width: 277px;
+		clear: none;
+	}
+	
+	.node-type-diarists .storyContentRow {
+		float: none;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	
+	.node-type-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto !important;
+		width: 955px;
+	}
+	
+	.node-type-diarists .sideBarRow .pane-views {
+		float: left;
+		margin-right: 40px;
+		width: 277px;
+		clear: none;
+	}
+	
 }
 
 @media all and (min-width: 1350px) and (max-width: 1450px) {
 
   #main-menu-container li a {
 		font-size: 14px;	
+	}
+	
+	.page-explore-diarists .storyContentRow {
+		float: none;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	
+	.page-explore-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto !important;
+		width: 955px;
+	}
+	
+	.page-explore-diarists .sideBarRow .pane-views {
+		float: left;
+		margin-right: 40px;
+		width: 277px;
+		clear: none;
+	}
+	
+	.node-type-diarists .storyContentRow {
+		float: none;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	
+	.node-type-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto !important;
+		width: 955px;
+	}
+	
+	.node-type-diarists .sideBarRow .pane-views {
+		float: left;
+		margin-right: 40px;
+		width: 277px;
+		clear: none;
 	}
 }
 
