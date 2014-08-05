@@ -3124,6 +3124,15 @@ body.overlay #footer-container * {
 	text-decoration: underline;
 }
 
+.know-more h2 {
+	border-color: #00cc99;
+	border-width: 6px 0 3px 0;
+	border-style: solid;
+	margin: 10px 0 0 0;
+	padding: 14px 0;
+	line-height: 1;
+}
+
 .pane-sidebar-realted-diaries {
 	clear: left;
 }
