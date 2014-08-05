@@ -3489,6 +3489,21 @@ body.overlay #footer-container * {
 	color: #1e1e1e;
 }
 
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+
 @media all and (max-width: 380px) { 
 	#sl-main-menu-container {
 		display: none;	
