@@ -40,6 +40,10 @@ a:hover {
 	width: 100%;
 }
 
+#overlay {
+	margin-top: 100px;
+}
+
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
 #header,
 #content,
@@ -3426,6 +3430,10 @@ body.overlay #footer-container * {
 	top: 520px;
 	right: 0px;
 	background-position: 0 -32px;
+}
+
+.overlay .socialmedia-container {
+	display: none;
 }
 
 .socialmedia-container {
