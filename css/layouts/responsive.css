@@ -3346,8 +3346,115 @@ body.overlay #footer-container * {
 	border: 4px solid #000;
 }
 
+.jcarousel-skin-default .jcarousel-container-horizontal {
+	width: 100%;
+	height: auto !important;
+	padding: 0;
+	padding-top: 1%;
+	margin: auto;
+}
+
+.diary-layout .jcarousel-skin-default .jcarousel-container-horizontal {
+	width: 100%;
+	padding: 0;
+	padding-top: 1%;
+	margin: auto;
+}
+
+.jcarousel-skin-default .jcarousel-clip-horizontal {
+	width: 100%;
+	overflow: hidden;
+	border: 4px solid #000;
+}
+
+.jcarousel-skin-default .jcarousel-navigation {
+	width: 94%;
+	height: 55px;
+	margin: auto;
+	margin-left: 3%;
+	margin-right: 3%;
+	overflow: hidden;
+	float: left;
+	border: 4px solid transparent;
+}
+
+.diary-layout .jcarousel-skin-default .jcarousel-item {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border: 1px solid #CCC;
+	list-style: none;
+	background: #fff none;
+}
+
+.jcarousel-skin-default .jcarousel-navigation .active {
+		background-color: #ccc !important;
+}
+
+.jcarousel-skin-default .jcarousel-navigation ul {
+	margin: 20px;
+}
+
+.jcarousel-skin-default .jcarousel-navigation li {
+	display: inline-block;
+	margin: 5px;
+	width: 45px;
+	line-height: 45px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+}
+
+.diary-layout .jcarousel-skin-default .jcarousel-navigation ul {
+	margin-bottom: 100px;
+}
+
+.jcarousel-skin-default .jcarousel-navigation li a {
+	color: #1e1e1e;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 12px;	
+	display: block;
+}
+
+.jcarousel-skin-default .jcarousel-navigation li a:hover {
+	color: #a00031;	
+}
+
+.jcarousel-skin-default .jcarousel-prev-horizontal {
+	display: none;
+	position: absolute;
+	top: 520px;
+	left: 0px;
+	background-position: 0 0;
+}
+
+.jcarousel-skin-default .jcarousel-next-horizontal {
+	display: none;
+	position: absolute;
+	top: 520px;
+	right: 0px;
+	background-position: 0 -32px;
+}
+
 .jcarousel-clip {
   overflow: hidden;
+}
+
+.view-footer .page-button-container {
+	position: relative;
+	top: -48px;
+	left: 0px;
+	width: 100%;
+	height: 55px;
+}
+
+.view-footer .page-prev-container {
+	float: left;
+}
+
+.view-footer .page-next-container {
+	float: right;
 }
 
 .overlay .socialmedia-container {

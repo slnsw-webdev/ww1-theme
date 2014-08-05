@@ -3368,9 +3368,14 @@ body.overlay #footer-container * {
 }
 
 .jcarousel-skin-default .jcarousel-navigation {
-	width: 100%;
+	width: 94%;
+	height: 55px;
 	margin: auto;
-	padding: 4px;
+	margin-left: 3%;
+	margin-right: 3%;
+	overflow: hidden;
+	float: left;
+	border: 4px solid transparent;
 }
 
 .diary-layout .jcarousel-skin-default .jcarousel-item {
@@ -3430,6 +3435,26 @@ body.overlay #footer-container * {
 	top: 520px;
 	right: 0px;
 	background-position: 0 -32px;
+}
+
+.jcarousel-clip {
+  overflow: hidden;
+}
+
+.view-footer .page-button-container {
+	position: absolute;
+	top: 5px;
+	left: 0px;
+	width: 100%;
+	height: 55px;
+}
+
+.view-footer .page-prev-container {
+	float: left;
+}
+
+.view-footer .page-next-container {
+	float: right;
 }
 
 .overlay .socialmedia-container {

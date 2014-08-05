@@ -17,7 +17,16 @@ jQuery( document ).ready(function() {
   
   
    jQuery('body.page-explore-diarists .view-diarists-list .item-list').append('<a href="#" class="back-to-top">Back to Top</a>');
- 
+   
+   // code for pager on the multiple deep zoom viewer
+   jQuery('#pager-next-btn').on('click', function() {
+		jQuery('.jcarousel-navigation').scrollTop(jQuery('.jcarousel-navigation').scrollTop()+57);
+   });
+   
+	jQuery('#pager-prev-btn').on('click', function() {
+		jQuery('.jcarousel-navigation').scrollTop(jQuery('.jcarousel-navigation').scrollTop()-57);
+   });
+   
  
    jQuery('#sidr-close-btn').on('click', function() {
           jQuery.sidr('close', 'sidr-0');
