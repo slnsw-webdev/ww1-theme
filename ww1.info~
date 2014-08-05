@@ -76,7 +76,6 @@ scripts[] = js/jlayout.border.js
 scripts[] = js/jquery.jlayout.js
 scripts[] = js/idle-timer.js
 scripts[] = js/jquery.corner.js
-scripts[] = js/swipe.js
 
 
 ; This section lists the regions defined in Zen's default page.tpl.php and
