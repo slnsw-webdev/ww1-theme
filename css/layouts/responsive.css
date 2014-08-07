@@ -353,6 +353,7 @@ h4 {
 }
 
 .home-nav-btn {
+	position: relative;
 	display: block;
    margin: auto;
    margin-top: 30px;	
