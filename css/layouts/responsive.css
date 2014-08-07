@@ -367,6 +367,7 @@ h4 {
 }
 
 .secondary-header-image-slider img {
+	display: block;
 	width: 100% !important;
 	height: auto !important;
 	min-height: 260px;	
@@ -1252,23 +1253,23 @@ h4 {
 }
 
 .greenFilterContainerTop {
-	border-top: 9px solid #00cc99;
-	width: 100%;
+	background-color: #00cc99;
 	height: 9px !important;
+	width: 100%;
 	margin: 0;
 	padding: 0;
 }
 
 .greenFilterContainerBtm {
-	border-bottom: 9px solid #00cc99;
-	width: 100%;
+	background-color: #00cc99;
 	height: 9px !important;
+	width: 100%;
 	margin: 0;
 	padding: 0;
 }
 
 .blueFilterContainerTop {
-	border-top: 9px solid #0059be;
+	background-color: #0059be;
 	height: 9px !important;
 	width: 100%;
 	margin: 0;
@@ -1276,22 +1277,24 @@ h4 {
 }
 
 .blueFilterContainerBtm {
-	border-bottom: 9px solid #0059be;
+	background-color: #0059be;
+	height: 9px !important;
 	width: 100%;
 	margin: 0;
 	padding: 0;
 }
 
 .pinkFilterContainerTop {
-	border-top: 9px solid #e50046;
-	width: 100%;
+	background-color: #e50046;
 	height: 9px !important;
+	width: 100%;
 	margin: 0;
 	padding: 0;
 }
 
 .pinkFilterContainerBtm {
-	border-bottom: 9px solid #e50046;
+	background-color: #e50046;
+	height: 9px !important;
 	width: 100%;
 	margin: 0;
 	padding: 0;
