@@ -3268,6 +3268,14 @@ body.overlay #footer-container * {
 	background-color: #fff !important;
 }
 
+.pane-learning-tweets .social {
+	margin-top: 15px;	
+}
+
+.pane-learning-tweets .social img{
+	padding-right: 10px; 
+}
+
 .sideBarRow  .multimedia p {
 	color: #1e1e1e;
     font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
