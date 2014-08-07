@@ -1431,10 +1431,12 @@ li > .menu-minipanel-panel {
 
 .mega-menu-container  {
 	width: 100% !important;
-	padding: 10px;
 	color: #000 !important;
-	background-color: #fff !important;
+	background-color: #ebebeb !important;
 	border-bottom: 1px solid #000;
+	background-image: url("/sites/all/files/background-image.png");
+    background-repeat: repeat;
+	padding-bottom: 10px;
 }
 
 .mega-menu-container .column-container  {
@@ -1445,8 +1447,23 @@ li > .menu-minipanel-panel {
 }
 
 .mega-menu-container .first-column-container  {
-	width: 50px !important;
 	float: left;
+	background-color: #ebebeb !important;
+}
+
+.mega-menu-container .first-column-container h2 {
+	margin: 0 0 0 .5em;
+	font-weight: normal;
+	color: #e50046;
+}
+
+.mega-menu-container .image-heading {
+	 font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif !important;
+	 font-size: 14px !important;
+	 font-style: italic;
+	 font-weight: bold;
+	 color: #000000;
+	 text-transform: none !important;
 }
 
 .mega-menu-content-title {
@@ -1454,8 +1471,9 @@ li > .menu-minipanel-panel {
 	font-size:14px;
 }
 
-.mega-menu-container  a {
+.mega-menu-container a {
 	color:#000 !important;
+	 font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif !important;
 }
 
 .mega-menu-container  a:hover {
