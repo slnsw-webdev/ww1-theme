@@ -3503,6 +3503,10 @@ body.overlay #footer-container * {
 	display: none;
 }
 
+#pager-prev-btn, #pager-next-btn {
+	cursor: pointer;
+}
+
 .socialmedia-container {
 	position: absolute;
 	width: 262px;
