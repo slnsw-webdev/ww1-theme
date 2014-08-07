@@ -3878,7 +3878,7 @@ body.overlay #footer-container * {
 		width: 100%;
 	}
 	
-	.page-explore-diarists .sideBarRow .pane-views {
+	.page-explore-diarists .sideBarRow .panel-pane {
 		float: none;
 		margin: 0 auto;
 		width: 277px;
@@ -3897,7 +3897,7 @@ body.overlay #footer-container * {
 		width: 100%;
 	}
 	
-	.node-type-diarists .sideBarRow .pane-views {
+	.node-type-diarists .sideBarRow .panel-pane {
 		float: none;
 		margin: 0 auto;
 		width: 277px;
@@ -3916,7 +3916,7 @@ body.overlay #footer-container * {
 		width: 100%;
 	}
 	
-	.page-learning .sideBarRow .pane-views {
+	.page-learning .sideBarRow .panel-pane {
 		float: none;
 		margin: 0 auto;
 		width: 277px;
@@ -3991,7 +3991,7 @@ body.overlay #footer-container * {
 		width: 100%;
 	}
 	
-	.page-explore-diarists .sideBarRow .pane-views {
+	.page-explore-diarists .sideBarRow .panel-pane {
 		float: none;
 		margin: 0 auto;
 		width: 277px;
@@ -4010,7 +4010,7 @@ body.overlay #footer-container * {
 		width: 100%;
 	}
 	
-	.node-type-diarists .sideBarRow .pane-views {
+	.node-type-diarists .sideBarRow .panel-pane {
 		float: none;
 		margin: 0 auto;
 		width: 277px;
@@ -4029,7 +4029,7 @@ body.overlay #footer-container * {
 		width: 100%;
 	}
 	
-	.page-learning .sideBarRow .pane-views {
+	.page-learning .sideBarRow .panel-pane {
 		float: none;
 		margin: 0 auto;
 		width: 277px;
@@ -4182,7 +4182,7 @@ body.overlay #footer-container * {
 		width: 100%;
 	}
 	
-	.page-explore-diarists .sideBarRow .pane-views {
+	.page-explore-diarists .sideBarRow .panel-pane {
 		float: none;
 		margin: 0 auto;
 		width: 277px;
@@ -4201,7 +4201,7 @@ body.overlay #footer-container * {
 		width: 100%;
 	}
 	
-	.node-type-diarists .sideBarRow .pane-views {
+	.node-type-diarists .sideBarRow .panel-pane {
 		float: none;
 		margin: 0 auto;
 		width: 277px;
@@ -4220,7 +4220,7 @@ body.overlay #footer-container * {
 		width: 100%;
 	}
 	
-	.page-learning .sideBarRow .pane-views {
+	.page-learning .sideBarRow .panel-pane {
 		float: none;
 		margin: 0 auto;
 		width: 277px;
@@ -4385,7 +4385,7 @@ body.overlay #footer-container * {
 		width: 634px;
 	}
 	
-	.page-explore-diarists .sideBarRow .pane-views {
+	.page-explore-diarists .sideBarRow .panel-pane {
 		float: left;
 		margin-right: 40px;
 		width: 277px;
@@ -4404,7 +4404,7 @@ body.overlay #footer-container * {
 		width: 634px;
 	}
 	
-	.node-type-diarists .sideBarRow .pane-views {
+	.node-type-diarists .sideBarRow .panel-pane {
 		float: left;
 		margin-right: 40px;
 		width: 277px;
@@ -4423,7 +4423,7 @@ body.overlay #footer-container * {
 		width: 634px;
 	}
 	
-	.page-learning .sideBarRow .pane-views {
+	.page-learning .sideBarRow .panel-pane {
 		float: left;
 		margin-right: 40px;
 		width: 277px;
@@ -4504,7 +4504,7 @@ body.overlay #footer-container * {
 		width: 634px;
 	}
 	
-	.page-explore-diarists .sideBarRow .pane-views {
+	.page-explore-diarists .sideBarRow .panel-pane {
 		float: left;
 		margin-right: 40px;
 		width: 277px;
@@ -4523,7 +4523,7 @@ body.overlay #footer-container * {
 		width: 634px;
 	}
 	
-	.node-type-diarists .sideBarRow .pane-views {
+	.node-type-diarists .sideBarRow .panel-pane {
 		float: left;
 		margin-right: 40px;
 		width: 277px;
@@ -4542,7 +4542,7 @@ body.overlay #footer-container * {
 		width: 634px;
 	}
 	
-	.page-learning .sideBarRow .pane-views {
+	.page-learning .sideBarRow .panel-pane {
 		float: left;
 		margin-right: 40px;
 		width: 277px;
@@ -4590,7 +4590,7 @@ body.overlay #footer-container * {
 		width: 634px;
 	}
 	
-	.page-explore-diarists .sideBarRow .pane-views {
+	.page-explore-diarists .sideBarRow .panel-pane {
 		float: left;
 		margin-right: 40px;
 		width: 277px;
@@ -4609,7 +4609,7 @@ body.overlay #footer-container * {
 		width: 634px;
 	}
 	
-	.node-type-diarists .sideBarRow .pane-views {
+	.node-type-diarists .sideBarRow .panel-pane {
 		float: left;
 		margin-right: 40px;
 		width: 277px;
@@ -4628,7 +4628,7 @@ body.overlay #footer-container * {
 		width: 634px;
 	}
 	
-	.page-learning .sideBarRow .pane-views {
+	.page-learning .sideBarRow .panel-pane {
 		float: left;
 		margin-right: 40px;
 		width: 277px;
@@ -4697,7 +4697,7 @@ body.overlay #footer-container * {
 		width: 955px;
 	}
 	
-	.page-explore-diarists .sideBarRow .pane-views {
+	.page-explore-diarists .sideBarRow .panel-pane {
 		float: left;
 		margin-right: 40px;
 		width: 277px;
@@ -4716,7 +4716,7 @@ body.overlay #footer-container * {
 		width: 955px;
 	}
 	
-	.node-type-diarists .sideBarRow .pane-views {
+	.node-type-diarists .sideBarRow .panel-pane {
 		float: left;
 		margin-right: 40px;
 		width: 277px;
@@ -4736,7 +4736,7 @@ body.overlay #footer-container * {
 		width: 955px;
 	}
 	
-	.page-learning .sideBarRow .pane-views {
+	.page-learning .sideBarRow .panel-pane {
 		float: left;
 		margin-right: 40px;
 		width: 277px;
@@ -4762,7 +4762,7 @@ body.overlay #footer-container * {
 		width: 955px;
 	}
 	
-	.page-explore-diarists .sideBarRow .pane-views {
+	.page-explore-diarists .sideBarRow .panel-pane {
 		float: left;
 		margin-right: 40px;
 		width: 277px;
@@ -4781,7 +4781,7 @@ body.overlay #footer-container * {
 		width: 955px;
 	}
 	
-	.node-type-diarists .sideBarRow .pane-views {
+	.node-type-diarists .sideBarRow .panel-pane {
 		float: left;
 		margin-right: 40px;
 		width: 277px;
@@ -4800,7 +4800,7 @@ body.overlay #footer-container * {
 		width: 955px;
 	}
 	
-	.page-learning .sideBarRow .pane-views {
+	.page-learning .sideBarRow .panel-pane {
 		float: left;
 		margin-right: 40px;
 		width: 277px;
