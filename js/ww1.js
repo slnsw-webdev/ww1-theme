@@ -8,7 +8,7 @@ jQuery(window).bind('resize', function() {
 
 jQuery( document ).ready(function() {
 	
-   jQuery('body.page-explore-diarists .view-header a').on('click', function(e) {
+   jQuery('body.page-explore-diarists .view-diarists-list .view-header a').on('click', function(e) {
 		 jQuery('html, body').animate({
 			scrollTop: jQuery('h3:contains(' + jQuery(this).text() + ')').offset().top - 75
 		}, 2000);
