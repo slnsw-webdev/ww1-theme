@@ -3285,6 +3285,9 @@ body.overlay #footer-container * {
 	box-shadow: 2px 2px 2px rgba(0,0,0,0.23);
 }
 
+.pane-quick-bites-sidebar .views-slideshow-cycle-main-frame  {
+	height: 250px !important;
+}
 .pane-quick-bites-sidebar  .views-field-title {
 	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
     font-size: 12px;
