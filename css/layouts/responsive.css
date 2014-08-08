@@ -3276,7 +3276,7 @@ body.overlay #footer-container * {
 	padding-right: 10px; 
 }
 
-.pane-quick-bites-sidebar {
+.pane-quick-bites-sidebar .view-content {
 	padding: 8px;
 	margin: 4px;
 	background-color: #FFFFFF;
