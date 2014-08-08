@@ -5069,98 +5069,23 @@ body.overlay #footer-container * {
 	}
 	
 	.page-explore-diarists .storyContentRow {
-		float: none;
-		max-width: 100%;
-		margin: 0 auto;
-	}
-	
-	.page-explore-diarists .sideBarRow {
-		float: none;
-		margin: 0 auto !important;
-		width: 955px;
-	}
-	
-	.page-explore-diarists .sideBarRow .panel-pane {
-		float: left;
-		margin-right: 40px;
-		width: 277px;
-		clear: none;
+		max-width: 640px;
 	}
 	
 	.node-type-diarists .storyContentRow {
-		float: none;
-		max-width: 100%;
-		margin: 0 auto;
-	}
-	
-	.node-type-diarists .sideBarRow {
-		float: none;
-		margin: 0 auto !important;
-		width: 955px;
-	}
-	
-	.node-type-diarists .sideBarRow .panel-pane {
-		float: left;
-		margin-right: 40px;
-		width: 277px;
-		clear: none;
+		max-width: 640px;	
 	}
 	
 	.node-type-asset .storyContentRow {
-		float: none;
-		max-width: 100%;
-		margin: 0 auto;
-	}
-	
-	.node-type-asset .sideBarRow {
-		float: none;
-		margin: 0 auto !important;
-		width: 955px;
-	}
-	
-	.node-type-asset .sideBarRow .panel-pane {
-		float: left;
-		margin-right: 40px;
-		width: 277px;
-		clear: none;
+		max-width: 640px;
 	}
 	
 	.page-learning .learningContentRow {
-		float: none;
-		margin: 0 auto;
-		max-width: 100%;
-	}
-	
-	.page-learning .sideBarRow {
-		float: none;
-		margin: 0 auto !important;
-		width: 955px;
-	}
-	
-	.page-learning .sideBarRow .panel-pane {
-		float: left;
-		margin-right: 40px;
-		width: 277px;
-		clear: none;
+		max-width: 640px;
 	}
 	
 	.page-whatson .storyContentRow {
-		float: none;
-		margin: 0 auto;
-		max-width: 100%;
-	}
-	
-	.page-whatson .sideBarRow {
-		float: none;
-		margin: 0 auto !important;
-		width: 955px;
-	}
-	
-	.page-whatson .sideBarRow .panel-pane {
-		float: left;
-		margin-right: 40px;
-		width: 277px;
-		clear: none;
+		max-width: 640px;
 	}
 }
 
@@ -5171,99 +5096,23 @@ body.overlay #footer-container * {
 	}
 	
 	.page-explore-diarists .storyContentRow {
-		float: none;
-		max-width: 100%;
-		margin: 0 auto;
-	}
-	
-	.page-explore-diarists .sideBarRow {
-		float: none;
-		margin: 0 auto !important;
-		width: 955px;
-	}
-	
-	.page-explore-diarists .sideBarRow .panel-pane {
-		float: left;
-		margin-right: 40px;
-		width: 277px;
-		clear: none;
+		max-width: 700px;
 	}
 	
 	.node-type-diarists .storyContentRow {
-		float: none;
-		max-width: 100%;
-		margin: 0 auto;
-	}
-	
-	.node-type-diarists .sideBarRow {
-		float: none;
-		margin: 0 auto !important;
-		width: 955px;
-	}
-	
-	.node-type-diarists .sideBarRow .panel-pane {
-		float: left;
-		margin-right: 40px;
-		width: 277px;
-		clear: none;
+		max-width: 700px;
 	}
 	
 	.node-type-asset .storyContentRow {
-		float: none;
-		max-width: 100%;
-		margin: 0 auto;
-	}
-	
-	.node-type-asset .sideBarRow {
-		float: none;
-		margin: 0 auto !important;
-		width: 955px;
-	}
-	
-	.node-type-asset .sideBarRow .panel-pane {
-		float: left;
-		margin-right: 40px;
-		width: 277px;
-		clear: none;
+		max-width: 700px;
 	}
 	
 	.page-learning .learningContentRow {
-		float: none;
-		margin: 0 auto;
-		max-width: 100%;
+		max-width: 700px;
 	}
-	
-	.page-learning .sideBarRow {
-		float: none;
-		margin: 0 auto !important;
-		width: 955px;
-	}
-	
-	.page-learning .sideBarRow .panel-pane {
-		float: left;
-		margin-right: 40px;
-		width: 277px;
-		clear: none;
-	}
-	
 	
 	.page-whatson .storyContentRow {
-		float: none;
-		margin: 0 auto;
-		max-width: 100%;
-	}
-	
-	.page-whatson .sideBarRow {
-		float: none;
-		margin: 0 auto !important;
-		width: 955px;
-	}
-	
-	.page-whatson .sideBarRow .panel-pane {
-		float: left;
-		margin-right: 40px;
-		width: 277px;
-		clear: none;
+		max-width: 700px;
 	}
 }
 
