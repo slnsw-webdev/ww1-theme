@@ -3306,10 +3306,17 @@ body.overlay #footer-container * {
 
 .pane-quick-bites-sidebar  .views-slideshow-controls-text-next {
 	display: inline-block;
+	float: right;
 	width: 15px;
 	height: 30px;
 	text-indent: -9999px;
 	background-image: url(/sites/all/themes/ww1/images/arrow-right.png);
+}
+
+.pane-quick-bites-sidebar   .views_slideshow_slide_counter {
+	position: relative;
+	top: -20px;
+	text-align: center;
 }
 
 .sideBarRow  .multimedia p {
