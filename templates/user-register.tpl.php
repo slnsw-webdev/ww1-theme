@@ -12,12 +12,6 @@
 <p>You must be logged in to add a story or upload a photo.
 
 <p>Register or log in using your email of facebook account to add your own story or photo about a World War I diarist in our collection.
-
-<p>Please add the following statement below the login and register fields:
-
-<p><strong>Copyright and Ownership</strong>
-
-<p>When you upload content, you are giving the State Library of NSW permission to publish. Please read our <a href="/about/terms-and-conditions">Terms and Conditions</a> before sharing your content. 
 	</div>	
 	
 	<?php print $messages; ?>
@@ -37,6 +31,11 @@
 	
 	?>
 	
-	<a href="/user/login">Login</a>
+   <div style="margin-bottom: 50px;"></div>
+   <a href="/user/login">Have an account? Login</a>
+	<p><strong>Copyright and Ownership</strong>
+
+	<p>When you upload content, you are giving the State Library of NSW permission to publish. Please read our <a href="/about/terms-and-conditions">Terms and Conditions</a> before sharing your content. 
+
 	<div style="margin-bottom: 50px;"></div>
 </div>

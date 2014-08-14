@@ -2989,7 +2989,7 @@ body.overlay #footer-container * {
 
 #exhibit-layout {
 	width: 1024px !important;
-	height: 768px !important;
+	height: 763px !important;
 }
 
 .page-explore-diarists .pane-diarists-list {
@@ -3473,7 +3473,7 @@ body.overlay #footer-container * {
 
 .layout-outer {
 	width: 1024px;
-	height: 768px;
+	height: 763px;
 	background-color: #777;
 }
 
@@ -3486,7 +3486,7 @@ body.overlay #footer-container * {
  */
 .layout-inner {
 	width: 614px;
-	height: 768px;
+	height: 763px;
 	border: 0px;
 	background-color: #777;
 	display: inline-block;
@@ -3502,7 +3502,7 @@ body.overlay #footer-container * {
 }
 
 .layout-inner > .center img {
-	height: 580px;
+	height: 575px;
 	width: auto;
 	margin:auto;
 	display:block;
@@ -3519,7 +3519,7 @@ body.overlay #footer-container * {
 
 .layout-outer > .east {
 	width: 410px;
-	height: 768px;
+	height: 763px;
 	background-color: #fff;
 	overflow: hidden;
 	overflow-y: scroll;
@@ -3542,7 +3542,7 @@ body.overlay #footer-container * {
 }
 
 .layout-inner > .center {
-	height: 673px;
+	height: 668px;
 	width: 609px;
 	background-color: #000;
 }
@@ -3640,7 +3640,7 @@ body.overlay #footer-container * {
 	margin: auto;
 }
 
-.diary-layout .jcarousel-skin-default .jcarousel-container-horizontal {
+.jcarousel-skin-default .jcarousel-container-horizontal {
 	width: 100%;
 	padding: 0;
 	padding-top: 1%;
@@ -3664,7 +3664,7 @@ body.overlay #footer-container * {
 	border: 4px solid transparent;
 }
 
-.diary-layout .jcarousel-skin-default .jcarousel-item {
+.jcarousel-skin-default .jcarousel-item {
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -3692,7 +3692,7 @@ body.overlay #footer-container * {
 	border: 1px solid #ccc;
 }
 
-.diary-layout .jcarousel-skin-default .jcarousel-navigation ul {
+.jcarousel-skin-default .jcarousel-navigation ul {
 	margin-bottom: 100px;
 }
 

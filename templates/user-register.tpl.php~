@@ -1,6 +1,6 @@
 <div class="blueFilterContainerTop"></div>
 <div class="secondary-main-content">
-   <div style="margin-top: 50px;"></div>
+   <div style="margin-top: 75px;"></div>
 	<div id="story-header-title">Register and get involved</div>
 	
 

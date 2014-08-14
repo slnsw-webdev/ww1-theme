@@ -102,6 +102,7 @@ jQuery( document ).ready(function() {
 		jQuery("#header").empty();
 		jQuery("#footer-container").empty();  
 		jQuery("#mobile-menu-container").empty();		
+		jQuery(".socialmedia-container").empty();
 		jQuery("#sidr-wrapper-0").empty();
 		jQuery("#sidr-0").empty();
 		jQuery("#lightbox2-overlay").empty();
@@ -109,7 +110,8 @@ jQuery( document ).ready(function() {
 		
 		jQuery("#header").hide();
 		jQuery("#footer-container").hide();  
-		jQuery("#mobile-menu-container").hide();		
+		jQuery("#mobile-menu-container").hide();	
+		jQuery(".socialmedia-container").hide();	
 		jQuery("#sidr-wrapper-0").hide();
 		jQuery("#sidr-0").hide();
 		jQuery("#lightbox2-overlay").hide();
