@@ -3018,10 +3018,13 @@ body.overlay #footer-container * {
 
 .page-explore-diarists  .sideBarRow {
 	float: right;
-	margin: 0 !important;
+	margin: 30px 0 0 0 !important;
 	padding: 0 !important;
 	width: 277px;
-	margin-left: 23px;
+}
+
+.page-explore-diarists  .sideBarRow .masonry-brick, .page-explore-diarists  .sideBarRow .masonry-brick img {
+	max-width: 90% !important;
 }
 
 .page-explore-diarists  .sideBar  h2 {
@@ -3061,10 +3064,9 @@ body.overlay #footer-container * {
 
 .node-type-diarists  .sideBarRow {
 	float: right;
-	margin: 0 !important;
+	margin: 30px 0 0 0 !important;
 	padding: 0 !important;
 	width: 277px;
-	margin-left: 23px;
 }
 
 .node-type-diarists  .sideBar  h2 {
@@ -3192,10 +3194,9 @@ body.overlay #footer-container * {
 
 .node-type-asset  .sideBarRow {
 	float: right;
-	margin: 0 !important;
+	margin: 30px 0 0 0 !important;
 	padding: 0 !important;
 	width: 277px;
-	margin-left: 23px;
 }
 
 .node-type-asset  .sideBar  h2 {
@@ -3230,10 +3231,9 @@ body.overlay #footer-container * {
 
 .page-learning  .sideBarRow {
 	float: right;
-	margin: 0 !important;
+	margin: 30px 0 0 0 !important;
 	padding: 0 !important;
 	width: 277px;
-	margin-left: 23px;
 }
 
 .page-learning  .sideBar  h2 {
@@ -3267,10 +3267,9 @@ body.overlay #footer-container * {
 
 .page-whatson  .sideBarRow {
 	float: right;
-	margin: 0 !important;
+	margin: 30px 0 0 0 !important;
 	padding: 0 !important;
 	width: 277px;
-	margin-left: 23px;
 }
 
 .page-whatson  .sideBar  h2 {
@@ -3883,6 +3882,18 @@ body.overlay #footer-container * {
 		display: none;	
 	}
 	
+	.page-explore-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-explore-diarists .sideBarRow .panel-pane {
+		float: none;
+		margin: 0 auto;
+		clear: none;
+		width: 100%;
+	}
 } 
 
 
@@ -3948,6 +3959,19 @@ body.overlay #footer-container * {
 	
 	.socialmedia-container {
 		display: none;	
+	}
+	
+	.page-explore-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-explore-diarists .sideBarRow .panel-pane {
+		float: none;
+		margin: 0 auto;
+		clear: none;
+		width: 100%;
 	}
 	
 } 
@@ -4037,10 +4061,10 @@ body.overlay #footer-container * {
 	}
 	
 	.page-explore-diarists .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
+		float: left;
 		clear: none;
+		margin: 0 1%;
+		width: 40%;
 	}
 	
 	.node-type-diarists .storyContentRow {
@@ -4188,9 +4212,9 @@ body.overlay #footer-container * {
 	}
 	
 	.page-explore-diarists .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
+		float: left;
+		margin: 0 1%;
+		width: 45%;
 		clear: none;
 	}
 	
@@ -4404,24 +4428,7 @@ body.overlay #footer-container * {
 		color: #fff;
 	}
 	
-	.page-explore-diarists .storyContentRow {
-		float: none;
-		margin: 0 auto;
-		max-width: 100%;
-	}
 	
-	.page-explore-diarists .sideBarRow {
-		float: none;
-		margin: 0 auto;
-		width: 100%;
-	}
-	
-	.page-explore-diarists .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
-		clear: none;
-	}
 	
 	.node-type-diarists .storyContentRow {
 		float: none;
@@ -4653,13 +4660,13 @@ body.overlay #footer-container * {
 	.page-explore-diarists .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.page-explore-diarists .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 1%;
+		width: 30%;
 		clear: none;
 	}
 	
@@ -4672,7 +4679,7 @@ body.overlay #footer-container * {
 	.node-type-diarists .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.node-type-diarists .sideBarRow .panel-pane {
@@ -4810,13 +4817,13 @@ body.overlay #footer-container * {
 	.page-explore-diarists .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.page-explore-diarists .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 1%;
+		width: 30%;
 		clear: none;
 	}
 	
@@ -4932,13 +4939,13 @@ body.overlay #footer-container * {
 	.page-explore-diarists .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.page-explore-diarists .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 1%;
+		width: 30%;
 		clear: none;
 	}
 	
