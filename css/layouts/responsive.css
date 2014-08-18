@@ -417,9 +417,11 @@ h4 {
 }
 
 .learning-sources-content {
-	width:80% !important;
-	margin-left: 10% !important;
-	margin-right: 10% !important;
+	float: none;
+	width: 80%;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	max-width: 1100px;
 }
 
 .secondary-page-image-overlay > div > img {
@@ -1508,6 +1510,8 @@ li > .menu-minipanel-panel {
   -ms-transition: max-height 0.15s ease-out; /*  1. */
   -o-transition: max-height 0.15s ease-out; /*  1. */
   transition: max-height 0.15s ease-out; /*  1. */
+  -webkit-transition-delay: .5s;
+  transition-delay: .5s;
   background-color: #1e1e1e;
 }
 
