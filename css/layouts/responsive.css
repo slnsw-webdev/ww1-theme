@@ -3069,6 +3069,10 @@ body.overlay #footer-container * {
 	width: 277px;
 }
 
+.node-type-diarists  .sideBarRow .masonry-brick, .node-type-diarists .sideBarRow .masonry-brick img {
+	max-width: 90% !important;
+}
+
 .node-type-diarists  .sideBar  h2 {
 	border-color: #00cc99;
 	border-width: 6px 0 3px 0;
@@ -3199,6 +3203,10 @@ body.overlay #footer-container * {
 	width: 277px;
 }
 
+.node-type-asset .sideBarRow .masonry-brick, .node-type-asset .sideBarRow .masonry-brick img {
+	max-width: 90% !important;
+}
+
 .node-type-asset  .sideBar  h2 {
 	border-color: #00cc99;
 	border-width: 6px 0 3px 0;
@@ -3236,6 +3244,10 @@ body.overlay #footer-container * {
 	width: 277px;
 }
 
+.page-learning .sideBarRow .masonry-brick, .page-learning .sideBarRow .masonry-brick img {
+	max-width: 90% !important;
+}
+
 .page-learning  .sideBar  h2 {
 	border-color: #00cc99;
 	border-width: 6px 0 3px 0;
@@ -3270,6 +3282,10 @@ body.overlay #footer-container * {
 	margin: 30px 0 0 0 !important;
 	padding: 0 !important;
 	width: 277px;
+}
+
+.page-whatson .sideBarRow .masonry-brick, .page-whatson .sideBarRow .masonry-brick img {
+	max-width: 90% !important;
 }
 
 .page-whatson  .sideBar  h2 {
@@ -3894,6 +3910,58 @@ body.overlay #footer-container * {
 		clear: none;
 		width: 100%;
 	}
+	
+	.node-type-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.node-type-diarists .sideBarRow .panel-pane {
+		float: none;
+		margin: 0 auto;
+		clear: none;
+		width: 100%;
+	}
+	
+	.node-type-asset .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.node-type-asset .sideBarRow .panel-pane {
+		float: none;
+		margin: 0 auto;
+		clear: none;
+		width: 100%;
+	}
+	
+	.page-learning .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-learning .sideBarRow .panel-pane {
+		float: none;
+		margin: 0 auto;
+		clear: none;
+		width: 100%;
+	}
+	
+	.page-whatson .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-whatson .sideBarRow .panel-pane {
+		float: none;
+		margin: 0 auto;
+		clear: none;
+		width: 100%;
+	}
 } 
 
 
@@ -3974,6 +4042,57 @@ body.overlay #footer-container * {
 		width: 100%;
 	}
 	
+	.node-type-diarists  .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.node-type-diarists  .sideBarRow .panel-pane {
+		float: none;
+		margin: 0 auto;
+		clear: none;
+		width: 100%;
+	}
+	
+	.node-type-asset .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.node-type-asset .sideBarRow .panel-pane {
+		float: none;
+		margin: 0 auto;
+		clear: none;
+		width: 100%;
+	}
+	
+	.page-learning .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-learning .sideBarRow .panel-pane {
+		float: none;
+		margin: 0 auto;
+		clear: none;
+		width: 100%;
+	}
+	
+	.page-whatson .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-whatson .sideBarRow .panel-pane {
+		float: none;
+		margin: 0 auto;
+		clear: none;
+		width: 100%;
+	}
 } 
  
 @media all and (min-width: 480px) {
@@ -4080,10 +4199,10 @@ body.overlay #footer-container * {
 	}
 	
 	.node-type-diarists .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
+		float: left;
 		clear: none;
+		margin: 0 1%;
+		width: 48%;
 	}
 	
 	.node-type-asset .storyContentRow {
@@ -4099,10 +4218,10 @@ body.overlay #footer-container * {
 	}
 	
 	.node-type-asset .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
+		float: left;
 		clear: none;
+		margin: 0 1%;
+		width: 48%;
 	}
 	
 	.page-learning .learningContentRow {
@@ -4118,10 +4237,10 @@ body.overlay #footer-container * {
 	}
 	
 	.page-learning .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
+		float: left;
 		clear: none;
+		margin: 0 1%;
+		width: 48%;
 	}
 	
 	.page-whatson .storyContentRow {
@@ -4137,10 +4256,10 @@ body.overlay #footer-container * {
 	}
 	
 	.page-whatson .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
+		float: left;
 		clear: none;
+		margin: 0 1%;
+		width: 48%;
 	}
 }
 
@@ -4231,9 +4350,9 @@ body.overlay #footer-container * {
 	}
 	
 	.node-type-diarists .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
+		float: left;
+		margin: 0 2%;
+		width: 46%;
 		clear: none;
 	}
 	
@@ -4250,9 +4369,9 @@ body.overlay #footer-container * {
 	}
 	
 	.node-type-asset .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
+		float: left;
+		margin: 0 2%;
+		width: 46%;
 		clear: none;
 	}
 	
@@ -4269,9 +4388,9 @@ body.overlay #footer-container * {
 	}
 	
 	.page-learning .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
+		float: left;
+		margin: 0 2%;
+		width: 46%;
 		clear: none;
 	}
 	
@@ -4288,9 +4407,9 @@ body.overlay #footer-container * {
 	}
 	
 	.page-whatson .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
+		float: left;
+		margin: 0 2%;
+		width: 46%;
 		clear: none;
 	}
 }
@@ -4426,84 +4545,6 @@ body.overlay #footer-container * {
 	.secondary-page-text-overlay {
 		font-size: 12px;
 		color: #fff;
-	}
-	
-	
-	
-	.node-type-diarists .storyContentRow {
-		float: none;
-		margin: 0 auto;
-		max-width: 100%;
-	}
-	
-	.node-type-diarists .sideBarRow {
-		float: none;
-		margin: 0 auto;
-		width: 100%;
-	}
-	
-	.node-type-diarists .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
-		clear: none;
-	}
-	
-	.node-type-asset .storyContentRow {
-		float: none;
-		margin: 0 auto;
-		max-width: 100%;
-	}
-	
-	.node-type-asset .sideBarRow {
-		float: none;
-		margin: 0 auto;
-		width: 100%;
-	}
-	
-	.node-type-asset .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
-		clear: none;
-	}
-	
-	.page-learning .learningContentRow {
-		float: none;
-		margin: 0 auto;
-		max-width: 100%;
-	}
-	
-	.page-learning .sideBarRow {
-		float: none;
-		margin: 0 auto;
-		width: 100%;
-	}
-	
-	.page-learning .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
-		clear: none;
-	}
-  
-	.page-whatson .storyContentRow {
-		float: none;
-		margin: 0 auto;
-		max-width: 100%;
-	}
-	
-	.page-whatson .sideBarRow {
-		float: none;
-		margin: 0 auto;
-		width: 100%;
-	}
-	
-	.page-whatson .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
-		clear: none;
 	}
 } 
 
@@ -4684,8 +4725,8 @@ body.overlay #footer-container * {
 	
 	.node-type-diarists .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	
@@ -4698,13 +4739,13 @@ body.overlay #footer-container * {
 	.node-type-asset .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.node-type-asset .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 2%;
+		width: 46%;
 		clear: none;
 	}
 	
@@ -4717,13 +4758,13 @@ body.overlay #footer-container * {
 	.page-learning .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.page-learning .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	
@@ -4736,13 +4777,13 @@ body.overlay #footer-container * {
 	.page-whatson .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.page-whatson .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 2%;
+		width: 46%;
 		clear: none;
 	}
 }
@@ -4836,13 +4877,13 @@ body.overlay #footer-container * {
 	.node-type-diarists .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.node-type-diarists .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	.node-type-asset .storyContentRow {
@@ -4854,13 +4895,13 @@ body.overlay #footer-container * {
 	.node-type-asset .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.node-type-asset .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 2%;
+		width: 46%;
 		clear: none;
 	}
 	.page-learning .learningContentRow {
@@ -4872,13 +4913,13 @@ body.overlay #footer-container * {
 	.page-learning .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.page-learning .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	
@@ -4891,13 +4932,13 @@ body.overlay #footer-container * {
 	.page-whatson .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.page-whatson .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 2%;
+		width: 46%;
 		clear: none;
 	}
 }
@@ -4958,13 +4999,13 @@ body.overlay #footer-container * {
 	.node-type-diarists .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.node-type-diarists .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	
@@ -4977,13 +5018,13 @@ body.overlay #footer-container * {
 	.node-type-asset .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.node-type-asset .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 2%;
+		width: 46%;
 		clear: none;
 	}
 	.page-learning .learningContentRow {
@@ -4995,13 +5036,13 @@ body.overlay #footer-container * {
 	.page-learning .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.page-learning .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	
@@ -5014,13 +5055,13 @@ body.overlay #footer-container * {
 	.page-whatson .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.page-whatson .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 2%;
+		width: 46%;
 		clear: none;
 	}
 }
