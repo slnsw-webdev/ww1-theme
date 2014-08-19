@@ -2056,14 +2056,12 @@ li.dhtml-menu > .menu-minipanel-panel {
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	color: #1E1E1E;
 	font-size: 12px;
-	padding-left: 5px;
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
 .storyContent .views-field-field-author {
-	padding-left: 5px;
 	padding-right: 5px;
 	max-width: 230px;
 	font-size: 11px;
