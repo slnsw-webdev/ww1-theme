@@ -3214,7 +3214,33 @@ body.overlay #footer-container * {
 }
 
 .node-type-asset .sideBarRow .masonry-brick, .node-type-asset .sideBarRow .masonry-brick img {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	padding: 2% !important;
+	max-width: 96% !important;
+	
+}
+
+.node-type-asset .view-sidebar-related-theme-content .masonry-brick   {
+	margin: 1% !important;
+	padding: 1% !important;
+	width: 29% !important;
+}
+
+.node-type-asset .view-sidebar-related-theme-content .masonry-brick .story-view-title, .node-type-asset .view-sidebar-related-theme-content .masonry-brick img {
 	max-width: 90% !important;
+	height: auto !important;
+}
+
+.node-type-asset  .view-sidebar-related-theme-content  h2 {
+	border-color: #e50046;
+	border-width: 6px 0 0 0;
+	border-style: solid;
+	margin: 10px 0 0 0;
+	padding: 14px 0;
+	line-height: 1;
+	font-size: 24px;
+	font-weight: normal;
 }
 
 .node-type-asset  .sideBar  h2 {
@@ -3947,6 +3973,12 @@ body.overlay #footer-container * {
 		width: 100%;
 	}
 	
+	.node-type-asset .view-sidebar-related-theme-content .masonry-brick   {
+		margin: 1% !important;
+		padding: 1% !important;
+		width: 96% !important;
+	}
+	
 	.page-learning .sideBarRow {
 		float: none;
 		margin: 0 auto;
@@ -4076,6 +4108,12 @@ body.overlay #footer-container * {
 		margin: 0 auto;
 		clear: none;
 		width: 100%;
+	}
+	
+	.node-type-asset .view-sidebar-related-theme-content .masonry-brick   {
+		margin: 1% !important;
+		padding: 1% !important;
+		width: 96% !important;
 	}
 	
 	.page-learning .sideBarRow {
@@ -4231,7 +4269,7 @@ body.overlay #footer-container * {
 		float: left;
 		clear: none;
 		margin: 0 1%;
-		width: 48%;
+		width: 31%;
 	}
 	
 	.page-learning .learningContentRow {
@@ -4380,8 +4418,8 @@ body.overlay #footer-container * {
 	
 	.node-type-asset .sideBarRow .panel-pane {
 		float: left;
-		margin: 0 2%;
-		width: 46%;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	
@@ -4754,8 +4792,8 @@ body.overlay #footer-container * {
 	
 	.node-type-asset .sideBarRow .panel-pane {
 		float: left;
-		margin: 0 2%;
-		width: 46%;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	
@@ -4910,8 +4948,8 @@ body.overlay #footer-container * {
 	
 	.node-type-asset .sideBarRow .panel-pane {
 		float: left;
-		margin: 0 2%;
-		width: 46%;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	.page-learning .learningContentRow {
@@ -5033,8 +5071,8 @@ body.overlay #footer-container * {
 	
 	.node-type-asset .sideBarRow .panel-pane {
 		float: left;
-		margin: 0 2%;
-		width: 46%;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	.page-learning .learningContentRow {
