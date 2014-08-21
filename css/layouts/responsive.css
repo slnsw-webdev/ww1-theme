@@ -2046,7 +2046,6 @@ li.dhtml-menu > .menu-minipanel-panel {
 	max-width: 230px !important;
 }
 
-<<<<<<< HEAD
 .view-diarists-diaries .view-title-label {
 	margin-top: 1em;
 	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
@@ -2061,11 +2060,11 @@ li.dhtml-menu > .menu-minipanel-panel {
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #1E1E1E;
-=======
+}
+
 .storyContent .masonry-brick img {
 	max-width: 100% !important;
 	height: auto !important;
->>>>>>> 2bdeeb8f8fa570cb47032901bcaa1f3740fc3009
 }
 
 .storyContent .pane-node-body {
