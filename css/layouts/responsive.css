@@ -2028,6 +2028,10 @@ li.dhtml-menu > .menu-minipanel-panel {
 	max-width: 300px !important;
 }
 
+.storyContent .masonry-brick {
+	max-width: 230px !important;
+}
+
 .storyContent .pane-node-body {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 14px;

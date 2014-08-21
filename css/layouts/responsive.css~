@@ -218,6 +218,10 @@ a:hover {
 	display : none !important;
 }
 
+#sidr-0 {
+	margin-top: 75px;
+}
+
 .heading-one {
     color: #e50046;
     font-family: Georgia, Times, "Times New Roman", serif;
@@ -417,9 +421,11 @@ h4 {
 }
 
 .learning-sources-content {
-	width:80% !important;
-	margin-left: 10% !important;
-	margin-right: 10% !important;
+	float: none;
+	width: 80%;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	max-width: 1100px;
 }
 
 .secondary-page-image-overlay > div > img {
@@ -1508,6 +1514,8 @@ li > .menu-minipanel-panel {
   -ms-transition: max-height 0.15s ease-out; /*  1. */
   -o-transition: max-height 0.15s ease-out; /*  1. */
   transition: max-height 0.15s ease-out; /*  1. */
+  -webkit-transition-delay: .5s;
+  transition-delay: .5s;
   background-color: #1e1e1e;
 }
 
@@ -1977,7 +1985,6 @@ li.dhtml-menu > .menu-minipanel-panel {
 }
 
 .learningActivity .pane-node-field-syllabus, .learningActivity .pane-image-sources-list, .learningActivity .pane-node-field-background-information, .learningActivity .pane-node-body, .learningActivity .pane-node-field-background-notes-teachers {
-	margin-left: 30px !important;
 	width: 100% !important;
 	float: left;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -2053,10 +2060,16 @@ li.dhtml-menu > .menu-minipanel-panel {
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	color: #1E1E1E;
 	font-size: 12px;
-	padding-left: 5px;
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: uppercase;
+}
+
+.storyContent .views-field-field-author {
+	padding-right: 5px;
+	max-width: 230px;
+	font-size: 11px;
+	line-height: 1.2;
 }
 
 .story-view-link {
@@ -3019,10 +3032,13 @@ body.overlay #footer-container * {
 
 .page-explore-diarists  .sideBarRow {
 	float: right;
-	margin: 0 !important;
+	margin: 30px 0 0 0 !important;
 	padding: 0 !important;
 	width: 277px;
-	margin-left: 23px;
+}
+
+.page-explore-diarists  .sideBarRow .masonry-brick, .page-explore-diarists  .sideBarRow .masonry-brick img {
+	max-width: 90% !important;
 }
 
 .page-explore-diarists  .sideBar  h2 {
@@ -3062,10 +3078,13 @@ body.overlay #footer-container * {
 
 .node-type-diarists  .sideBarRow {
 	float: right;
-	margin: 0 !important;
+	margin: 30px 0 0 0 !important;
 	padding: 0 !important;
 	width: 277px;
-	margin-left: 23px;
+}
+
+.node-type-diarists  .sideBarRow .masonry-brick, .node-type-diarists .sideBarRow .masonry-brick img {
+	max-width: 90% !important;
 }
 
 .node-type-diarists  .sideBar  h2 {
@@ -3193,10 +3212,39 @@ body.overlay #footer-container * {
 
 .node-type-asset  .sideBarRow {
 	float: right;
-	margin: 0 !important;
+	margin: 30px 0 0 0 !important;
 	padding: 0 !important;
 	width: 277px;
-	margin-left: 23px;
+}
+
+.node-type-asset .sideBarRow .masonry-brick, .node-type-asset .sideBarRow .masonry-brick img {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	padding: 2% !important;
+	max-width: 96% !important;
+	
+}
+
+.node-type-asset .view-sidebar-related-theme-content .masonry-brick   {
+	margin: 1% !important;
+	padding: 1% !important;
+	width: 29% !important;
+}
+
+.node-type-asset .view-sidebar-related-theme-content .masonry-brick .story-view-title, .node-type-asset .view-sidebar-related-theme-content .masonry-brick img {
+	max-width: 90% !important;
+	height: auto !important;
+}
+
+.node-type-asset  .view-sidebar-related-theme-content  h2 {
+	border-color: #e50046;
+	border-width: 6px 0 0 0;
+	border-style: solid;
+	margin: 10px 0 0 0;
+	padding: 14px 0;
+	line-height: 1;
+	font-size: 24px;
+	font-weight: normal;
 }
 
 .node-type-asset  .sideBar  h2 {
@@ -3231,10 +3279,13 @@ body.overlay #footer-container * {
 
 .page-learning  .sideBarRow {
 	float: right;
-	margin: 0 !important;
+	margin: 30px 0 0 0 !important;
 	padding: 0 !important;
 	width: 277px;
-	margin-left: 23px;
+}
+
+.page-learning .sideBarRow .masonry-brick, .page-learning .sideBarRow .masonry-brick img {
+	max-width: 90% !important;
 }
 
 .page-learning  .sideBar  h2 {
@@ -3268,10 +3319,13 @@ body.overlay #footer-container * {
 
 .page-whatson  .sideBarRow {
 	float: right;
-	margin: 0 !important;
+	margin: 30px 0 0 0 !important;
 	padding: 0 !important;
 	width: 277px;
-	margin-left: 23px;
+}
+
+.page-whatson .sideBarRow .masonry-brick, .page-whatson .sideBarRow .masonry-brick img {
+	max-width: 90% !important;
 }
 
 .page-whatson  .sideBar  h2 {
@@ -3300,10 +3354,10 @@ body.overlay #footer-container * {
 
 .pane-sidebar-themes ul li {
 	float: left;
-	margin: 0 2px 4px 2px;
+	margin: 0 1% 4px 1%;
 	padding: 0;
 	text-align: center;
-	width: 85px;
+	width: 31%;
 	height: 45px;
 	background-color: #ebebeb;
 }
@@ -3311,7 +3365,7 @@ body.overlay #footer-container * {
 .pane-sidebar-themes ul li a {
 	display: inline-block;
 	padding-top: 5px;
-	width: 85px;
+	width: 100%;
 	height: 40px;
 	color: #686868;
 }
@@ -3502,7 +3556,7 @@ body.overlay #footer-container * {
 }
 
 .layout-inner > .center img {
-	height: 580px;
+	height: 575px;
 	width: auto;
 	margin:auto;
 	display:block;
@@ -3542,7 +3596,7 @@ body.overlay #footer-container * {
 }
 
 .layout-inner > .center {
-	height: 673px;
+	height: 668px;
 	width: 609px;
 	background-color: #000;
 }
@@ -3884,6 +3938,76 @@ body.overlay #footer-container * {
 		display: none;	
 	}
 	
+	.page-explore-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-explore-diarists .sideBarRow .panel-pane {
+		float: none;
+		margin: 0 auto;
+		clear: none;
+		width: 100%;
+	}
+	
+	.node-type-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.node-type-diarists .sideBarRow .panel-pane {
+		float: none;
+		margin: 0 auto;
+		clear: none;
+		width: 100%;
+	}
+	
+	.node-type-asset .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.node-type-asset .sideBarRow .panel-pane {
+		float: none;
+		margin: 0 auto;
+		clear: none;
+		width: 100%;
+	}
+	
+	.node-type-asset .view-sidebar-related-theme-content .masonry-brick   {
+		margin: 1% !important;
+		padding: 1% !important;
+		width: 96% !important;
+	}
+	
+	.page-learning .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-learning .sideBarRow .panel-pane {
+		float: none;
+		margin: 0 auto;
+		clear: none;
+		width: 100%;
+	}
+	
+	.page-whatson .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-whatson .sideBarRow .panel-pane {
+		float: none;
+		margin: 0 auto;
+		clear: none;
+		width: 100%;
+	}
 } 
 
 
@@ -3951,6 +4075,76 @@ body.overlay #footer-container * {
 		display: none;	
 	}
 	
+	.page-explore-diarists .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-explore-diarists .sideBarRow .panel-pane {
+		float: none;
+		margin: 0 auto;
+		clear: none;
+		width: 100%;
+	}
+	
+	.node-type-diarists  .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.node-type-diarists  .sideBarRow .panel-pane {
+		float: none;
+		margin: 0 auto;
+		clear: none;
+		width: 100%;
+	}
+	
+	.node-type-asset .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.node-type-asset .sideBarRow .panel-pane {
+		float: none;
+		margin: 0 auto;
+		clear: none;
+		width: 100%;
+	}
+	
+	.node-type-asset .view-sidebar-related-theme-content .masonry-brick   {
+		margin: 1% !important;
+		padding: 1% !important;
+		width: 96% !important;
+	}
+	
+	.page-learning .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-learning .sideBarRow .panel-pane {
+		float: none;
+		margin: 0 auto;
+		clear: none;
+		width: 100%;
+	}
+	
+	.page-whatson .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-whatson .sideBarRow .panel-pane {
+		float: none;
+		margin: 0 auto;
+		clear: none;
+		width: 100%;
+	}
 } 
  
 @media all and (min-width: 480px) {
@@ -4038,10 +4232,10 @@ body.overlay #footer-container * {
 	}
 	
 	.page-explore-diarists .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
+		float: left;
 		clear: none;
+		margin: 0 1%;
+		width: 48%;
 	}
 	
 	.node-type-diarists .storyContentRow {
@@ -4057,10 +4251,10 @@ body.overlay #footer-container * {
 	}
 	
 	.node-type-diarists .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
+		float: left;
 		clear: none;
+		margin: 0 1%;
+		width: 48%;
 	}
 	
 	.node-type-asset .storyContentRow {
@@ -4076,10 +4270,10 @@ body.overlay #footer-container * {
 	}
 	
 	.node-type-asset .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
+		float: left;
 		clear: none;
+		margin: 0 1%;
+		width: 31%;
 	}
 	
 	.page-learning .learningContentRow {
@@ -4095,10 +4289,10 @@ body.overlay #footer-container * {
 	}
 	
 	.page-learning .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
+		float: left;
 		clear: none;
+		margin: 0 1%;
+		width: 48%;
 	}
 	
 	.page-whatson .storyContentRow {
@@ -4114,10 +4308,10 @@ body.overlay #footer-container * {
 	}
 	
 	.page-whatson .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
+		float: left;
 		clear: none;
+		margin: 0 1%;
+		width: 48%;
 	}
 }
 
@@ -4189,9 +4383,9 @@ body.overlay #footer-container * {
 	}
 	
 	.page-explore-diarists .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
+		float: left;
+		margin: 0 2%;
+		width: 46%;
 		clear: none;
 	}
 	
@@ -4208,9 +4402,9 @@ body.overlay #footer-container * {
 	}
 	
 	.node-type-diarists .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
+		float: left;
+		margin: 0 2%;
+		width: 46%;
 		clear: none;
 	}
 	
@@ -4227,9 +4421,9 @@ body.overlay #footer-container * {
 	}
 	
 	.node-type-asset .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
+		float: left;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	
@@ -4246,9 +4440,9 @@ body.overlay #footer-container * {
 	}
 	
 	.page-learning .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
+		float: left;
+		margin: 0 2%;
+		width: 46%;
 		clear: none;
 	}
 	
@@ -4265,9 +4459,9 @@ body.overlay #footer-container * {
 	}
 	
 	.page-whatson .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
+		float: left;
+		margin: 0 2%;
+		width: 46%;
 		clear: none;
 	}
 }
@@ -4405,99 +4599,10 @@ body.overlay #footer-container * {
 		color: #fff;
 	}
 	
-	.page-explore-diarists .storyContentRow {
-		float: none;
-		margin: 0 auto;
-		max-width: 100%;
-	}
-	
-	.page-explore-diarists .sideBarRow {
-		float: none;
-		margin: 0 auto;
-		width: 100%;
-	}
-	
-	.page-explore-diarists .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
-		clear: none;
-	}
-	
-	.node-type-diarists .storyContentRow {
-		float: none;
-		margin: 0 auto;
-		max-width: 100%;
-	}
-	
-	.node-type-diarists .sideBarRow {
-		float: none;
-		margin: 0 auto;
-		width: 100%;
-	}
-	
-	.node-type-diarists .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
-		clear: none;
-	}
-	
-	.node-type-asset .storyContentRow {
-		float: none;
-		margin: 0 auto;
-		max-width: 100%;
-	}
-	
-	.node-type-asset .sideBarRow {
-		float: none;
-		margin: 0 auto;
-		width: 100%;
-	}
-	
-	.node-type-asset .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
-		clear: none;
-	}
-	
-	.page-learning .learningContentRow {
-		float: none;
-		margin: 0 auto;
-		max-width: 100%;
-	}
-	
-	.page-learning .sideBarRow {
-		float: none;
-		margin: 0 auto;
-		width: 100%;
-	}
-	
-	.page-learning .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
-		clear: none;
-	}
-  
-	.page-whatson .storyContentRow {
-		float: none;
-		margin: 0 auto;
-		max-width: 100%;
-	}
-	
-	.page-whatson .sideBarRow {
-		float: none;
-		margin: 0 auto;
-		width: 100%;
-	}
-	
-	.page-whatson .sideBarRow .panel-pane {
-		float: none;
-		margin: 0 auto;
-		width: 277px;
-		clear: none;
+	.view-diarists-list .view-header a {
+		padding: 12px; 
+		margin: 3px; 
+		border-width: 1px;
 	}
 } 
 
@@ -4514,12 +4619,13 @@ body.overlay #footer-container * {
 	} 
 	
 	.header__site-link:link {
-		font-size: 20px !important;	
+		float: left;
+		padding-left: 60px;	
 	}
 	
 	#main-menu-container {
-		width: 70%;	
-	}	
+		display: none;	
+	}
 	
 	#main-menu-container li {
 		padding: 0 3px 0 0;		
@@ -4654,13 +4760,13 @@ body.overlay #footer-container * {
 	.page-explore-diarists .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.page-explore-diarists .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	
@@ -4673,13 +4779,13 @@ body.overlay #footer-container * {
 	.node-type-diarists .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.node-type-diarists .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	
@@ -4692,13 +4798,13 @@ body.overlay #footer-container * {
 	.node-type-asset .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.node-type-asset .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	
@@ -4711,13 +4817,13 @@ body.overlay #footer-container * {
 	.page-learning .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.page-learning .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	
@@ -4730,14 +4836,20 @@ body.overlay #footer-container * {
 	.page-whatson .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.page-whatson .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 2%;
+		width: 46%;
 		clear: none;
+	}
+	
+	.view-diarists-list .view-header a {
+		padding: 12px; 
+		margin: 3px; 
+		border-width: 1px;
 	}
 }
 
@@ -4754,7 +4866,12 @@ body.overlay #footer-container * {
 	} 
 	
 	.header__site-link:link {
-		font-size: 18px !important;	
+		float: left;
+		padding-left: 60px;	
+	}
+	
+	#main-menu-container {
+		display: none;	
 	}
 	
 	#main-menu-container li {
@@ -4811,13 +4928,13 @@ body.overlay #footer-container * {
 	.page-explore-diarists .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.page-explore-diarists .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	
@@ -4830,13 +4947,13 @@ body.overlay #footer-container * {
 	.node-type-diarists .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.node-type-diarists .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	.node-type-asset .storyContentRow {
@@ -4848,13 +4965,13 @@ body.overlay #footer-container * {
 	.node-type-asset .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.node-type-asset .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	.page-learning .learningContentRow {
@@ -4866,13 +4983,13 @@ body.overlay #footer-container * {
 	.page-learning .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.page-learning .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	
@@ -4885,14 +5002,20 @@ body.overlay #footer-container * {
 	.page-whatson .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.page-whatson .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 2%;
+		width: 46%;
 		clear: none;
+	}
+	
+	.view-diarists-list .view-header a {
+		padding: 12px; 
+		margin: 3px; 
+		border-width: 1px;
 	}
 }
 
@@ -4933,13 +5056,13 @@ body.overlay #footer-container * {
 	.page-explore-diarists .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.page-explore-diarists .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	
@@ -4952,13 +5075,13 @@ body.overlay #footer-container * {
 	.node-type-diarists .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.node-type-diarists .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	
@@ -4971,13 +5094,13 @@ body.overlay #footer-container * {
 	.node-type-asset .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.node-type-asset .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	.page-learning .learningContentRow {
@@ -4989,13 +5112,13 @@ body.overlay #footer-container * {
 	.page-learning .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.page-learning .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 1%;
+		width: 31%;
 		clear: none;
 	}
 	
@@ -5008,13 +5131,13 @@ body.overlay #footer-container * {
 	.page-whatson .sideBarRow {
 		float: none;
 		margin: 0 auto !important;
-		width: 634px;
+		width: 100%;
 	}
 	
 	.page-whatson .sideBarRow .panel-pane {
 		float: left;
-		margin-right: 40px;
-		width: 277px;
+		margin: 0 2%;
+		width: 46%;
 		clear: none;
 	}
 }
