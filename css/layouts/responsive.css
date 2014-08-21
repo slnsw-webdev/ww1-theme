@@ -218,6 +218,10 @@ a:hover {
 	display : none !important;
 }
 
+#sidr-0 {
+	margin-top: 75px;
+}
+
 .heading-one {
     color: #e50046;
     font-family: Georgia, Times, "Times New Roman", serif;
@@ -4594,6 +4598,12 @@ body.overlay #footer-container * {
 		font-size: 12px;
 		color: #fff;
 	}
+	
+	.view-diarists-list .view-header a {
+		padding: 12px; 
+		margin: 3px; 
+		border-width: 1px;
+	}
 } 
 
 @media all and (min-width: 840px) and (max-width: 959px) {
@@ -4609,12 +4619,13 @@ body.overlay #footer-container * {
 	} 
 	
 	.header__site-link:link {
-		font-size: 20px !important;	
+		float: left;
+		padding-left: 60px;	
 	}
 	
 	#main-menu-container {
-		width: 70%;	
-	}	
+		display: none;	
+	}
 	
 	#main-menu-container li {
 		padding: 0 3px 0 0;		
@@ -4834,6 +4845,12 @@ body.overlay #footer-container * {
 		width: 46%;
 		clear: none;
 	}
+	
+	.view-diarists-list .view-header a {
+		padding: 12px; 
+		margin: 3px; 
+		border-width: 1px;
+	}
 }
 
 
@@ -4849,7 +4866,12 @@ body.overlay #footer-container * {
 	} 
 	
 	.header__site-link:link {
-		font-size: 18px !important;	
+		float: left;
+		padding-left: 60px;	
+	}
+	
+	#main-menu-container {
+		display: none;	
 	}
 	
 	#main-menu-container li {
@@ -4988,6 +5010,12 @@ body.overlay #footer-container * {
 		margin: 0 2%;
 		width: 46%;
 		clear: none;
+	}
+	
+	.view-diarists-list .view-header a {
+		padding: 12px; 
+		margin: 3px; 
+		border-width: 1px;
 	}
 }
 
