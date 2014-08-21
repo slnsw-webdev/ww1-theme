@@ -2032,6 +2032,22 @@ li.dhtml-menu > .menu-minipanel-panel {
 	max-width: 230px !important;
 }
 
+.view-diarists-diaries .view-title-label {
+	margin-top: 1em;
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.view-diarists-diaries a {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #1E1E1E;
+}
+
 .storyContent .pane-node-body {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 14px;
