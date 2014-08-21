@@ -321,7 +321,6 @@ h4 {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
 	min-height: 0 !important;
    z-index: 1;
    margin-top: 75px;
@@ -2020,19 +2019,35 @@ li.dhtml-menu > .menu-minipanel-panel {
 	max-width: 230px !important;
 }
 
+.learningContent .masonry-brick img {
+	max-width: 100% !important;
+	height: auto !important;
+}
+
 .learningActivity .masonry-brick {
 	max-width: 230px !important;
+}
+
+.learningActivity .masonry-brick img {
+	max-width: 100% !important;
+	height: auto !important;
 }
 
 .userContent .masonry-brick {
 	max-width: 300px !important;
 }
 
+.userContent .masonry-brick img {
+	max-width: 100% !important;
+	height: auto !important;
+}
+
 .storyContent .masonry-brick {
 	max-width: 230px !important;
 }
 
-.view-diarists-diaries {
+<<<<<<< HEAD
+.view-diarists-diaries .view-title-label {
 	margin-top: 1em;
 	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
 	font-size: 24px;
@@ -2046,6 +2061,11 @@ li.dhtml-menu > .menu-minipanel-panel {
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #1E1E1E;
+=======
+.storyContent .masonry-brick img {
+	max-width: 100% !important;
+	height: auto !important;
+>>>>>>> 2bdeeb8f8fa570cb47032901bcaa1f3740fc3009
 }
 
 .storyContent .pane-node-body {
@@ -3436,6 +3456,14 @@ body.overlay #footer-container * {
 
 .pane-quick-bites-sidebar  .views-slideshow-cycle-main-frame {
 	height: 300px !important;
+}
+
+.pane-quick-bites-sidebar  .views_slideshow_cycle_slide  {
+	max-width: 100% !important;
+}
+
+.pane-quick-bites-sidebar  .views-slideshow-cycle-main-frame img {
+	max-width: 100% !important;
 }
 
 .pane-quick-bites-sidebar  .views-field-title {
