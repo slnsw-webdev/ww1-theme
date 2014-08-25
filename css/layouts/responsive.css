@@ -2369,8 +2369,10 @@ li.dhtml-menu > .menu-minipanel-panel {
 }
 
 .news-list .masonry-brick {
-	width: 80% !important;
-	max-width: 80% !important;	
+	width: 96% !important;
+	max-width: 96% !important;	
+	margin: 0 0 10px 0 !important;
+	padding: 2% !important;
 }
 
 .news-list .display-container {
@@ -3271,7 +3273,6 @@ body.overlay #footer-container * {
 }
 
 .node-type-asset .view-sidebar-related-theme-content .masonry-brick .story-view-title, .node-type-asset .view-sidebar-related-theme-content .masonry-brick img {
-	max-width: 90% !important;
 	height: auto !important;
 }
 
@@ -3377,6 +3378,46 @@ body.overlay #footer-container * {
 	font-size: 18px;
 }
 
+.page-news  .secondary-main-content {
+	float: none;
+	width: 80%;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	max-width: 1100px;
+}
+
+.page-news .storyContent {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.page-news  .storyContentRow {
+	float: left;
+	margin: 0 !important;
+	padding: 0 !important;
+	max-width: 800px;
+}
+
+.page-news  .sideBarRow {
+	float: right;
+	margin: 30px 0 0 0 !important;
+	padding: 0 !important;
+	width: 277px;
+}
+
+.page-news .sideBarRow .masonry-brick, .page-news .sideBarRow .masonry-brick img {
+	max-width: 90% !important;
+}
+
+.page-news  .sideBar  h2 {
+	border-color: #00cc99;
+	border-width: 6px 0 3px 0;
+	border-style: solid;
+	margin: 10px 0 0 0;
+	padding: 14px 0;
+	line-height: 1;
+	font-size: 18px;
+}
 .pane-sidebar-realted-diaries {
 	clear: left;
 }
@@ -4024,12 +4065,6 @@ body.overlay #footer-container * {
 		width: 100%;
 	}
 	
-	.node-type-asset .view-sidebar-related-theme-content .masonry-brick   {
-		margin: 1% !important;
-		padding: 1% !important;
-		width: 96% !important;
-	}
-	
 	.page-learning .sideBarRow {
 		float: none;
 		margin: 0 auto;
@@ -4054,6 +4089,12 @@ body.overlay #footer-container * {
 		margin: 0 auto;
 		clear: none;
 		width: 100%;
+	}
+	
+	.node-type-asset .view-sidebar-related-theme-content .masonry-brick   {
+		margin: 1% !important;
+		padding: 1% !important;
+		width: 96% !important;
 	}
 } 
 
@@ -4161,12 +4202,6 @@ body.overlay #footer-container * {
 		width: 100%;
 	}
 	
-	.node-type-asset .view-sidebar-related-theme-content .masonry-brick   {
-		margin: 1% !important;
-		padding: 1% !important;
-		width: 96% !important;
-	}
-	
 	.page-learning .sideBarRow {
 		float: none;
 		margin: 0 auto;
@@ -4191,6 +4226,12 @@ body.overlay #footer-container * {
 		margin: 0 auto;
 		clear: none;
 		width: 100%;
+	}
+	
+	.node-type-asset .view-sidebar-related-theme-content .masonry-brick   {
+		margin: 1% !important;
+		padding: 1% !important;
+		width: 29% !important;
 	}
 } 
  
@@ -4359,6 +4400,12 @@ body.overlay #footer-container * {
 		clear: none;
 		margin: 0 1%;
 		width: 48%;
+	}
+	
+	.node-type-asset .view-sidebar-related-theme-content .masonry-brick   {
+		margin: 1% !important;
+		padding: 1% !important;
+		width: 29% !important;
 	}
 }
 
