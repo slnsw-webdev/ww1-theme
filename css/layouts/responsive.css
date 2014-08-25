@@ -4563,39 +4563,69 @@ body.overlay #footer-container * {
 @media all and (max-width: 840px) { 
 	
 	/* Position footer div's */
-	#footer-container, #footer-top, #footer-top-left, #footer-top-middle, #footer-top-right, #footer-bottom, #footer-bottom-left, #footer-bottom-right {
+	#footer-top, #footer-top-left, #footer-bottom {
 		position: relative !important;
 		width: 100% !important;	
 		float: left !important;
 	}
 	
-	#footer-action {
-  		width: 100% !important;
-  		min-height: 0 !important;
-  		position: relative !important;
-		border-left: 0px;
-		border-right: 0px;    
-  }
+	#footer-bottom-left {
+		float: left !important;
+		position: relative !important;
+		width: 100% !important;
+	}
 	
+	#footer-bottom-right {
+		float: left !important;
+		position: relative !important;
+		width: 100% !important;
+	}
+	
+	#footer-top-middle {
+		position: relative !important;
+		width: 60% !important;	
+		float: left !important;
+		padding: 0 !important;
+		margin: 0 !important;	
+	}
+	
+	#footer-top-right {
+		position: relative !important;
+		width: 100% !important;	
+		float: left !important;	
+		margin: 15px 0 !important;
+		padding: 0 !important;
+	}
+	
+	#footer-action {
+		width: 100% !important;
+		min-height: 100px !important;
+	}
+	
+	.footer-action-btn {
+		margin-right: 0 !important;
+		margin-left: 15px !important;
+	}
+	
+	#footer-sl-details {
+		margin: 0 auto !important;	
+	}
+	
+	#footer-sl-details-logo {
+		float: left;
+		margin-right: 15px;
+	}
+	
+	#footer-sl-details-content {
+		float: left;
+	}
+		
 	#footer-top-left {
 		margin-top: 20px;	
 	}
 	
 	#footer-bottom {
-		min-height: 140px !important;	
-	}
-
-	#footer-sl-details-logo {
-		float: left;
-		width: 50%;
-		text-align: center;	
-	}
-	
-	#footer-sl-details-content {
-		float: right;
-		width: 50%;
-		margin-left: 0 auto !important;
-		margin-right: 0 auto !important;
+		min-height: 150px !important;
 	}
 	
 	#site-name-container {
@@ -4628,9 +4658,7 @@ body.overlay #footer-container * {
 		width: 100% !important;	
 	}
 	
-	.panels-flexible-column-staff_pick_layout-8 {
-		width: 80% !important;	
-	}
+	
 	
 	/* Logo image. */
 	.header__logo-image {
@@ -4698,6 +4726,7 @@ body.overlay #footer-container * {
 		margin: 3px; 
 		border-width: 1px;
 	}
+	
 } 
 
 @media all and (min-width: 840px) and (max-width: 959px) {
@@ -4785,21 +4814,37 @@ body.overlay #footer-container * {
 	
 	#footer-top-right {
 		position: relative !important;
-		width: 40% !important;	
+		width: 30% !important;	
 		float: right !important;	
 		margin: 0 !important;
 		padding: 0 !important;
 	}
 	
+	#footer-action {
+		width: 100% !important;
+	}
+	
+	.footer-action-btn {
+		margin-right: 0 !important;
+		margin-left: 15px !important;
+	}
+	
 	#footer-sl-details {
-		width: 40%;
 		margin: 0 auto !important;	
+	}
+	
+	#footer-sl-details-logo {
+		float: left;
+		margin-right: 15px;
+	}
+	
+	#footer-sl-details-content {
+		float: left;
 	}
 		
 	#footer-top-left {
 		margin-top: 20px;	
 	}
-	
 	
 	#footer-bottom {
 		min-height: 75px !important;	
@@ -5110,6 +5155,69 @@ body.overlay #footer-container * {
 		padding: 12px; 
 		margin: 3px; 
 		border-width: 1px;
+	}
+	
+	/* Position footer div's */
+	#footer-top, #footer-top-left, #footer-bottom {
+		position: relative !important;
+		width: 100% !important;	
+		float: left !important;
+	}
+	
+	#footer-bottom-left {
+		position: relative !important;
+		float: left !important;
+	}
+	
+	#footer-bottom-right {
+		position: relative !important;
+		float: left !important;
+	}
+	
+	#footer-top-middle {
+		position: relative !important;
+		width: 60% !important;	
+		float: left !important;
+		padding: 0 !important;
+		margin: 0 !important;	
+	}
+	
+	#footer-top-right {
+		position: relative !important;
+		width: 30% !important;	
+		float: right !important;	
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	
+	#footer-action {
+		width: 100% !important;
+	}
+	
+	.footer-action-btn {
+		margin-right: 0 !important;
+		margin-left: 15px !important;
+	}
+	
+	#footer-sl-details {
+		margin: 0 auto !important;	
+	}
+	
+	#footer-sl-details-logo {
+		float: left;
+		margin-right: 15px;
+	}
+	
+	#footer-sl-details-content {
+		float: left;
+	}
+		
+	#footer-top-left {
+		margin-top: 20px;	
+	}
+	
+	#footer-bottom {
+		min-height: 75px !important;	
 	}
 }
 
