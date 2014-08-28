@@ -2732,7 +2732,12 @@ li.dhtml-menu > .menu-minipanel-panel {
 }
 
 .deepzoom {
+	height: 500px !important;
 	background-color: #888 !important;
+}
+
+.fullpage {
+	height: auto !important;
 }
 
 body.overlay #header * {
