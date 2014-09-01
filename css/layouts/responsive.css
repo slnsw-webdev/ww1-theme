@@ -1668,22 +1668,35 @@ li.dhtml-menu > .menu-minipanel-panel {
 	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
 	font-size: 14px;
 	padding: 0;
-	height: 30px;
+	height: 33px;
 	width: 150px;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+}
+
+.pane-asset-list .views-exposed-form .views-exposed-widget .form-text {
+	border:1px solid #b7b7b7;
+	background:#f9f9f9;
+	color:#7f7f7f;
 }
 
 .pane-asset-list .views-exposed-form .views-exposed-widget .form-submit {
 	border-radius: 0;
-	margin-left: 1em;
+	margin: 0 0 0 1em;
 	color: #1e1e1e;
 	background: none;
 	border: 2px solid #1e1e1e;
-	padding: .7em 1em;
+	padding: .0 1em;
+	height: 31px;
 	font-family: “Century Gothic”, CenturyGothic, AppleGothic, sans-serif;
 	font-weight: normal;
 	font-size: 14px;
 	font-weight: bold;
 	text-transform: uppercase;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
 }
 
 .pane-asset-list .attachment-before {
@@ -2622,6 +2635,8 @@ li.dhtml-menu > .menu-minipanel-panel {
 }
 
 .asset-list-header {
+	border-top: 6px solid #00cc99;
+	padding-top: 20px !important;
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 24px;
 	vertical-align: middle;
@@ -2629,6 +2644,10 @@ li.dhtml-menu > .menu-minipanel-panel {
 	padding-top: 5px;
 	color: #1e1e1e;
 	text-transform: uppercase;
+}
+
+.pane-asset-list {
+	margin-top: 20px;
 }
 
 .asset-list-no-results {
@@ -2736,7 +2755,7 @@ li.dhtml-menu > .menu-minipanel-panel {
 	background-color: #888 !important;
 }
 
-.deepzoom .fullpage {
+.deepzoom.fullpage {
 	height: auto !important;
 }
 

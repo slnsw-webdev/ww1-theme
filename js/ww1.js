@@ -328,9 +328,36 @@ jQuery( document ).ready(function() {
 				
 				
 			});	
-		
 	
-  
+	jQuery('#edit-go').hide();	
+	jQuery("#edit-jump").heapbox({
+		'effect': {
+			'type': 'standard',
+		},
+		'onChange': function(value) {
+			if (value == '') {
+				window.location = '/explore/';
+				return;
+			}
+			jQuery('#edit-go').click();
+		}
+	});
+	
+	jQuery('#edit-go--2').hide();
+	jQuery("#edit-jump--2").heapbox({
+		'effect': {
+			'type': 'standard',
+		},
+		'onChange': function(value) {
+			if (value == '') {
+				window.location = '/explore/';
+				return;
+			}
+			jQuery('#edit-go--2').click();
+		}
+	});
+	
+	jQuery('#views-exposed-form-asset-list-default').attr('action', '');
 });
 
 jQuery(window).load(function() {

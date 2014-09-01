@@ -52,6 +52,7 @@ stylesheets[all][] = system.theme.css
 ; Then we add our own stylesheet.
 stylesheets[all][] = css/styles.css
 stylesheets[all][] = js/responsive-nav.css
+stylesheets[all][] = js/heapbox/themes/ww1/css/ww1.css
 
 ; Built-in conditional stylesheet support has been removed from Zen 7.x-5.x.
 ; Instead, Zen now adds conditional-comment-included classes to the html
@@ -77,7 +78,7 @@ scripts[] = js/jquery.jlayout.js
 scripts[] = js/idle-timer.js
 scripts[] = js/jquery.corner.js
 scripts[] = js/swipe.js
-
+scripts[] = js/heapbox/jquery.heapbox-0.9.4.min.js
 
 ; This section lists the regions defined in Zen's default page.tpl.php and
 ; maintenance-page.tpl.php files. The name in brackets is the machine name of

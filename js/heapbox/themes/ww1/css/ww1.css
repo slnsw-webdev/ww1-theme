@@ -1,0 +1,130 @@
+.heapBox
+{
+clear:both;
+display:inline-block !important;
+line-height:35px;
+position:relative;
+border:1px solid #b7b7b7;
+background:#f9f9f9;
+}
+
+.heapBox *
+{
+margin:0;
+padding:0;
+outline: none;
+}
+
+.heapBox.disabled .holder
+{
+color:#7f7f7f;
+}
+
+.heapBox a{
+text-decoration:none;
+color:#7f7f7f;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+font-weight: normal;
+font-size: 11px;
+}
+
+.heapBox .holder
+{
+width:150px;
+overflow:hidden;
+background:#f9f9f9;
+text-indent:20px;
+height:35px;
+}
+
+.heapBox .handler
+{
+width:48px;
+background:#f9f9f9 url(../gfx/heapbox_handler_bg.png);
+height:33px;
+}
+
+.heapBox .holder,.heapBox .handler
+{
+float:left;
+position:relative;
+z-index:10;
+}
+
+.heapBox div.heap
+{
+display:none;
+position:absolute;
+list-style-type:none;
+left:0;
+width:198px;
+top:37px;
+overflow:hidden;
+}
+
+.heapBox .heap .heapOptions
+{
+display:block;
+overflow:hidden;
+z-index:100;
+position:relative;
+border:1px solid #b7b7b7;
+}
+
+.heapBox .heap a.sliderUp
+{
+display:block;
+width:100%;
+height:15px;
+background:#f9f9f9 url(../gfx/slider_arrow_up.png);
+background-repeat:no-repeat;
+background-position:center center;
+border-bottom:1px solid #b7b7b7;
+position:absolute;
+top:0px;
+z-index:30;
+}
+
+.heapBox .heap a.sliderDown
+{
+display:block;
+width:100%;
+height:15px;
+background:#f9f9f9 url(../gfx/slider_arrow_down.png);
+background-repeat:no-repeat;
+background-position:center center;
+border-top:1px solid #b7b7b7;
+position:absolute;
+bottom:0px;
+z-index:30;
+}
+
+.heapBox .heap .heapOptions .heapOption
+{
+z-index:20;
+position:relative;
+display:block;
+height:35px;
+}
+
+.heapBox .heap .heapOptions .heapOption a{
+width:100%;
+display:block;
+background:#f9f9f9;
+text-indent:20px;
+}
+
+.heapBox .heap .heapOptions .heapOption a:hover{
+background:#b7b7b7;
+color: #f9f9f9;
+}
+
+.heapBox .heap .heapOptions .heapOption a.selected{
+background:#b7b7b7;
+color: #f9f9f9;
+}
+
+.heapBox .heap .heapOptions .heapOption a.disabled{
+	color:#b7b7b7;
+	color: #f9f9f9;
+}
