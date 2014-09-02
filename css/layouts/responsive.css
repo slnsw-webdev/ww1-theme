@@ -2629,7 +2629,7 @@ li.dhtml-menu > .menu-minipanel-panel {
 }
 
 .asset-list-header-container {
-	height: 35px;
+	min-height: 35px;
 	width: 100% !important;
 	padding: 0;
 }
@@ -2657,7 +2657,6 @@ li.dhtml-menu > .menu-minipanel-panel {
 	padding-top: 20px;
 	padding-left: 65px;
 }
-
 
 .panels-flexible-column-what_s_on_featured-5 {
 	max-width: 230px !important;
