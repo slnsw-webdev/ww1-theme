@@ -6,6 +6,21 @@ jQuery(window).bind('resize', function() {
   
 });
 
+function getInternetExplorerVersion()
+// Returns the version of Internet Explorer or a -1
+// (indicating the use of another browser).
+{
+  var rv = -1; // Return value assumes failure.
+  if (navigator.appName == 'Microsoft Internet Explorer')
+  {
+    var ua = navigator.userAgent;
+    var re  = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+    if (re.exec(ua) != null)
+      rv = parseFloat( RegExp.$1 );
+  }
+  return rv;
+}
+
 jQuery( document ).ready(function() {
 	
    jQuery('body.page-explore-diarists .view-diarists-list .view-header a').on('click', function(e) {
@@ -14,8 +29,12 @@ jQuery( document ).ready(function() {
 		}, 2000);
 		e.preventDefault();
    });
-  
-  
+   
+   // hack for IE images ...
+	// console.log('browser ... ' + getInternetExplorerVersion());
+	if (getInternetExplorerVersion() != -1) {
+   	jQuery('img').on('load', function(e) {}).each(function(i,e) { jQuery(e).attr('src', jQuery(e).attr('src') + '#' + new Date().getTime() ); });
+   }
    jQuery('body.page-explore-diarists .view-diarists-list .item-list').append('<a href="#" class="back-to-top">Back to Top</a>');
    
    // code for pager on the multiple deep zoom viewer
@@ -513,7 +532,7 @@ jQuery.cookie = function(name, value, options) {
                 }
             }
         }
-        return cookieValue;
+        return cookieValue;explore
     }
 };
 
