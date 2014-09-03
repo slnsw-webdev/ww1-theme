@@ -1835,7 +1835,6 @@ li.dhtml-menu > .menu-minipanel-panel {
 
 #footer-action {
 	width: 280px !important;
-	min-height: 144px;
 }
 
 .footer-action-btn {
@@ -1847,7 +1846,7 @@ li.dhtml-menu > .menu-minipanel-panel {
 	font-family: Georgia, Times, "Times New Roman", serif;
 	font-size: 22px;
 	margin-top: 8px !important;
-	margin-bottom: 8px; !important;
+	margin-bottom: 8px !important;
 	margin-left: 30px !important;
 	margin-right: 30px !important;
 	line-height: 2.0em !important;
@@ -4031,6 +4030,8 @@ body.overlay #footer-container * {
 		display: block;
 		float: none !important;
 		padding: 15px;
+		clear: both;
+		overflow: hidden;
 	}
 	
 	#sl-main-menu-container {
@@ -4194,6 +4195,8 @@ body.overlay #footer-container * {
 		display: block;
 		float: none !important;
 		padding: 15px;
+		clear: both;
+		overflow: hidden;
 	}
 	
 	#site-name {
@@ -4357,6 +4360,8 @@ body.overlay #footer-container * {
 		display: block;
 		float: none !important;
 		padding: 15px;
+		clear: both;
+		overflow: hidden;
 	}
 
   #main {
@@ -4371,6 +4376,8 @@ body.overlay #footer-container * {
 		display: block;
 		float: none !important;
 		padding: 15px;
+		clear: both;
+		overflow: hidden;
 	}
 
 	.home-page-text-overlay {
@@ -4402,6 +4409,7 @@ body.overlay #footer-container * {
 	}
 	
 	.footer-action-btn {
+		float: left;
 		margin-right: 0 !important;
 		margin-left: 15px !important;
 	}
@@ -4557,9 +4565,8 @@ body.overlay #footer-container * {
 
 @media all and (min-width: 640px) and (max-width: 840px) { 
 	#footer-top-right {
-		display: block;
-		float: none !important;
-		padding: 15px;
+		float: right !important;
+		clear: none;
 	}
 	
 	.home-page-text-overlay {
@@ -4733,7 +4740,7 @@ body.overlay #footer-container * {
 	}
 	
 	#footer-top-middle {
-		position: relative !important;
+		position: relative !important;	
 		float: left !important;
 		padding: 0 !important;
 		margin: 0 !important;	
@@ -4741,23 +4748,27 @@ body.overlay #footer-container * {
 	
 	#footer-top-right {
 		position: relative !important;
-		min-width: 270px;	
+		min-width: 250px !important;	
 		margin: 0 !important;
-		clear: both;
-	}
-	
-	#footer-action {
-		width: auto !important;
 	}
 	
 	.footer-action-btn {
-		display: block;
+		display: block !important;;
 		margin-right: 0 !important;
 		margin-left: 15px !important;
 	}
 	
 	#footer-sl-details {
 		margin: 0 auto !important;	
+	}
+	
+	#footer-sl-details-logo {
+		float: left;
+		margin-right: 15px;
+	}
+	
+	#footer-sl-details-content {
+		float: left;
 	}
 		
 	#footer-top-left {
@@ -4958,8 +4969,7 @@ body.overlay #footer-container * {
 	}
 	
 	#footer-top-middle {
-		position: relative !important;
-		width: 60% !important;	
+		position: relative !important;	
 		float: left !important;
 		padding: 0 !important;
 		margin: 0 !important;	
@@ -4967,17 +4977,14 @@ body.overlay #footer-container * {
 	
 	#footer-top-right {
 		position: relative !important;
-		width: 30% !important;	
+		min-width: 250px !important;	
 		float: right !important;	
 		margin: 0 !important;
-	}
-	
-	#footer-action {
-		width: auto !important;
+		clear: none;
 	}
 	
 	.footer-action-btn {
-		display: block;
+		display: block !important;
 		margin-right: 0 !important;
 		margin-left: 15px !important;
 	}
@@ -5325,10 +5332,10 @@ body.overlay #footer-container * {
 	
 	#footer-top-right {
 		position: relative !important;
-		width: 30% !important;	
+		min-width: 250px !important;	
 		float: right !important;	
 		margin: 0 !important;
-		padding: 0 !important;
+		clear: none;
 	}
 	
 	#footer-action {
