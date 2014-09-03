@@ -4163,6 +4163,19 @@ body.overlay #footer-container * {
 		width: 100%;
 	}
 	
+	.page-news .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-news .sideBarRow .panel-pane {
+		float: none;
+		margin: 0 auto;
+		clear: none;
+		width: 100%;
+	}
+	
 	.node-type-asset .view-sidebar-related-theme-content .masonry-brick   {
 		margin: 1% !important;
 		padding: 1% !important;
@@ -4186,6 +4199,21 @@ body.overlay #footer-container * {
 		
 	.pane-asset-list .views-widget-filter-title input {
 		width: 80px;
+	}
+	
+	 .page-whatson  .storyContentRow .pane-2 img {
+		display: block !important;
+		float: none !important;
+		padding-bottom: 15px;
+	}
+	
+	.news-list .first-column-container {
+		display: block;
+		max-width: 100% !important;
+	}
+
+	.news-list .column-container {
+		display: block;
 	}
 } 
 
@@ -4325,6 +4353,19 @@ body.overlay #footer-container * {
 		width: 100%;
 	}
 	
+	.page-news .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-news .sideBarRow .panel-pane {
+		float: none;
+		margin: 0 auto;
+		clear: none;
+		width: 100%;
+	}
+	
 	.node-type-asset .view-sidebar-related-theme-content .masonry-brick   {
 		margin: 1% !important;
 		padding: 1% !important;
@@ -4353,6 +4394,21 @@ body.overlay #footer-container * {
 	.pane-asset-list .views-widget-filter-title input {
 		width: 80px;
 	}
+	
+	 .page-whatson  .storyContentRow .pane-2 img {
+		display: block !important;
+		float: none !important;
+		padding-bottom: 15px;
+	}
+	
+	.news-list .first-column-container {
+		display: block;
+		max-width: 100% !important;
+	}
+
+	.news-list .column-container {
+		display: block;
+	}
 } 
  
 @media all and (min-width: 480px) {
@@ -4368,7 +4424,6 @@ body.overlay #footer-container * {
     position: relative;
     width: 100%;
   }
-
 }
 
 @media all and (min-width: 480px) and (max-width: 640px) { 
@@ -4546,6 +4601,25 @@ body.overlay #footer-container * {
 		width: 48%;
 	}
 	
+	.page-news .storyContentRow {
+		float: none;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	.page-news .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-news .sideBarRow .panel-pane {
+		float: left;
+		clear: none;
+		margin: 0 1%;
+		width: 48%;
+	}
+	
 	.node-type-asset .view-sidebar-related-theme-content .masonry-brick   {
 		margin: 1% !important;
 		padding: 1% !important;
@@ -4711,6 +4785,25 @@ body.overlay #footer-container * {
 	}
 	
 	.page-whatson .sideBarRow .panel-pane {
+		float: left;
+		margin: 0 2%;
+		width: 46%;
+		clear: none;
+	}
+	
+	.page-news .storyContentRow {
+		float: none;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	.page-news .sideBarRow {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.page-news .sideBarRow .panel-pane {
 		float: left;
 		margin: 0 2%;
 		width: 46%;
@@ -4890,7 +4983,10 @@ body.overlay #footer-container * {
 		float: left;
 		clear: left;
 	}
-
+	
+	.view-diarists-list .item-list a {
+		line-height: 2;
+	}
 }
 
 @media all and (min-width: 840px) and (max-width: 959px) {
@@ -5135,6 +5231,25 @@ body.overlay #footer-container * {
 		clear: none;
 	}
 	
+	.page-news .storyContentRow {
+		float: none;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	.page-news .sideBarRow {
+		float: none;
+		margin: 0 auto !important;
+		width: 100%;
+	}
+	
+	.page-news .sideBarRow .panel-pane {
+		float: left;
+		margin: 0 2%;
+		width: 46%;
+		clear: none;
+	}
+	
 	.view-diarists-list .view-header a {
 		padding: 12px; 
 		margin: 3px; 
@@ -5148,6 +5263,10 @@ body.overlay #footer-container * {
 	.pane-asset-list .attachment-before {
 		float: left;
 		clear: left;
+	}
+	
+	.view-diarists-list .item-list a {
+		line-height: 2;
 	}
 }
 
@@ -5299,6 +5418,25 @@ body.overlay #footer-container * {
 		clear: none;
 	}
 	
+	.page-news .storyContentRow {
+		float: none;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	.page-news .sideBarRow {
+		float: none;
+		margin: 0 auto !important;
+		width: 100%;
+	}
+	
+	.page-news .sideBarRow .panel-pane {
+		float: left;
+		margin: 0 2%;
+		width: 46%;
+		clear: none;
+	}
+	
 	.view-diarists-list .view-header a {
 		padding: 12px; 
 		margin: 3px; 
@@ -5375,6 +5513,10 @@ body.overlay #footer-container * {
 	.pane-asset-list .attachment-before {
 		float: left;
 		clear: left;
+	}
+	
+	.view-diarists-list .item-list a {
+		line-height: 2;
 	}
 }
 
@@ -5500,6 +5642,25 @@ body.overlay #footer-container * {
 		clear: none;
 	}
 	
+	.page-news .storyContentRow {
+		float: none;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	.page-news .sideBarRow {
+		float: none;
+		margin: 0 auto !important;
+		width: 100%;
+	}
+	
+	.page-news .sideBarRow .panel-pane {
+		float: left;
+		margin: 0 2%;
+		width: 46%;
+		clear: none;
+	}
+	
 	.pane-asset-list .view-filters {
 		float: left;
 	}
@@ -5567,6 +5728,10 @@ body.overlay #footer-container * {
 	.page-whatson .storyContentRow {
 		max-width: 640px;
 	}
+	
+	.page-news .storyContentRow {
+		max-width: 640px;
+	}
 }
 
 @media all and (min-width: 1350px) and (max-width: 1450px) {
@@ -5592,6 +5757,10 @@ body.overlay #footer-container * {
 	}
 	
 	.page-whatson .storyContentRow {
+		max-width: 700px;
+	}
+	
+	.page-news .storyContentRow {
 		max-width: 700px;
 	}
 }
