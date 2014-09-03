@@ -1819,7 +1819,7 @@ li.dhtml-menu > .menu-minipanel-panel {
 #footer-top-right {
 	float: right;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 	margin-right: 20px;
 	width: 140px;
 }
@@ -4026,7 +4026,13 @@ body.overlay #footer-container * {
   position: relative;
 }
 
-@media all and (max-width: 380px) { 
+@media all and (max-width: 380px) {
+	#footer-top-right {
+		display: block;
+		float: none !important;
+		padding: 15px;
+	}
+	
 	#sl-main-menu-container {
 		display: none;	
 	}
@@ -4184,7 +4190,11 @@ body.overlay #footer-container * {
 
 
 @media all and (min-width: 380px) and (max-width: 480px) { 
-	
+	#footer-top-right {
+		display: block;
+		float: none !important;
+		padding: 15px;
+	}
 	
 	#site-name {
 		font-size: 17px !important;	
@@ -4343,7 +4353,12 @@ body.overlay #footer-container * {
 } 
  
 @media all and (min-width: 480px) {
-	
+	#footer-top-right {
+		display: block;
+		float: none !important;
+		padding: 15px;
+	}
+
   #main {
     position: relative;
     width: 100%;
@@ -4352,6 +4367,11 @@ body.overlay #footer-container * {
 }
 
 @media all and (min-width: 480px) and (max-width: 640px) { 
+	#footer-top-right {
+		display: block;
+		float: none !important;
+		padding: 15px;
+	}
 
 	.home-page-text-overlay {
 		font-size: 12px !important;  
@@ -4376,6 +4396,15 @@ body.overlay #footer-container * {
  	#ls-header-title {
 		font-size: 20px;  
  	}	
+  
+  #footer-action {
+		width: auto !important;
+	}
+	
+	.footer-action-btn {
+		margin-right: 0 !important;
+		margin-left: 15px !important;
+	}
   
   .storyContent {
 		font-size: 14px;  
@@ -4527,6 +4556,11 @@ body.overlay #footer-container * {
 }
 
 @media all and (min-width: 640px) and (max-width: 840px) { 
+	#footer-top-right {
+		display: block;
+		float: none !important;
+		padding: 15px;
+	}
 	
 	.home-page-text-overlay {
 		font-size: 13px !important;  
@@ -4700,7 +4734,6 @@ body.overlay #footer-container * {
 	
 	#footer-top-middle {
 		position: relative !important;
-		width: 60% !important;	
 		float: left !important;
 		padding: 0 !important;
 		margin: 0 !important;	
@@ -4708,33 +4741,23 @@ body.overlay #footer-container * {
 	
 	#footer-top-right {
 		position: relative !important;
-		width: 100% !important;	
-		float: left !important;	
-		margin: 15px 0 !important;
-		padding: 0 !important;
+		min-width: 270px;	
+		margin: 0 !important;
+		clear: both;
 	}
 	
 	#footer-action {
-		width: 100% !important;
-		min-height: 100px !important;
+		width: auto !important;
 	}
 	
 	.footer-action-btn {
+		display: block;
 		margin-right: 0 !important;
 		margin-left: 15px !important;
 	}
 	
 	#footer-sl-details {
 		margin: 0 auto !important;	
-	}
-	
-	#footer-sl-details-logo {
-		float: left;
-		margin-right: 15px;
-	}
-	
-	#footer-sl-details-content {
-		float: left;
 	}
 		
 	#footer-top-left {
@@ -4743,6 +4766,10 @@ body.overlay #footer-container * {
 	
 	#footer-bottom {
 		min-height: 150px !important;
+	}
+	
+	.panels-flexible-column-staff_pick_layout-8 {
+		width: 90% !important;
 	}
 	
 	#site-name-container {
@@ -4943,14 +4970,14 @@ body.overlay #footer-container * {
 		width: 30% !important;	
 		float: right !important;	
 		margin: 0 !important;
-		padding: 0 !important;
 	}
 	
 	#footer-action {
-		width: 100% !important;
+		width: auto !important;
 	}
 	
 	.footer-action-btn {
+		display: block;
 		margin-right: 0 !important;
 		margin-left: 15px !important;
 	}
@@ -5290,11 +5317,11 @@ body.overlay #footer-container * {
 	
 	#footer-top-middle {
 		position: relative !important;
-		width: 60% !important;	
 		float: left !important;
 		padding: 0 !important;
 		margin: 0 !important;	
 	}
+	
 	
 	#footer-top-right {
 		position: relative !important;
@@ -5305,7 +5332,7 @@ body.overlay #footer-container * {
 	}
 	
 	#footer-action {
-		width: 100% !important;
+		width: auto !important;
 	}
 	
 	.footer-action-btn {
