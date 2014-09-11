@@ -2749,13 +2749,15 @@ li.dhtml-menu > .menu-minipanel-panel {
 }
 
 .deepzoom {
-	height: 500px !important;
+	height: 500px;
 	background-color: #888 !important;
 }
 
+/**
 .deepzoom.fullpage {
 	height: auto !important;
 }
+**/
 
 body.overlay #header * {
 	display: none !important;
