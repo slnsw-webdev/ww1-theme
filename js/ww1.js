@@ -22,6 +22,8 @@ function getInternetExplorerVersion()
 }
 
 jQuery( document ).ready(function() {
+
+   jQuery('.easy-breadcrumb').append('<span class="easy-breadcrumb_segment-separator"> &gt; </span>');
 	
    jQuery('body.page-explore-diarists .view-diarists-list .view-header a').on('click', function(e) {
 		 jQuery('html, body').animate({
