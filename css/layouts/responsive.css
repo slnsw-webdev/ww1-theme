@@ -1419,6 +1419,11 @@ article {
 	text-decoration: none;
 }
 
+.story-refimage-container {
+	position: relative;
+	z-index: 999;
+}
+
 .home-section-title {
 	font-family: Georgia, Times, "Times New Roman", serif;
 	font-style: normal;
